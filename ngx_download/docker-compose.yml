@@ -1,13 +1,12 @@
 nginx:
-  image: 192.168.254.211:5000/nginx
+  image: nginx
 
   environment:
     - TZ＝'Asia/Shanghai'
 
   volumes:
-    - /opt/ngx_download:/etc/nginx
-    - /opt/nginxlog:/var/log/nginx
-    - /opt/ngx_download/hosts:/etc/hosts
+    - ./ngx_download/download.yunwei.edu.conf:/etc/nginx/conf.d/download.yunwei.edu.conf
+    - ./nginxlog:/var/log/nginx
     - /export/download:/opt/download
 
   ports:
