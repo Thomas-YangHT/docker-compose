@@ -1,10 +1,10 @@
 web:
-  image: 'gitlab/gitlab-ce:latest'
+  image: '192.168.100.222:5000/gitlab/gitlab-ce:latest'
   restart: always
   hostname: 'gitlab.yunwei.edu'
   environment:
     GITLAB_OMNIBUS_CONFIG: |
-      external_url 'http://gitlab.yunwei.edu:1180'
+      external_url 'http://gitlab.yunwei.edu'
       gitlab_rails['gitlab_shell_ssh_port'] = 122
   ports:
     - '1180:80'

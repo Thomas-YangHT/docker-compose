@@ -7,4 +7,4 @@ docker run -d \
   -v /opt/cmp_gitlab/gitlab/config:/etc/gitlab:Z \
   -v /opt/cmp_gitlab/gitlab/logs:/var/log/gitlab:Z \
   -v /opt/cmp_gitlab/gitlab/data:/var/opt/gitlab:Z \
-192.168.254.211:5000/gitlab/gitlab-ce:latest
+192.168.100.222:5000/gitlab/gitlab-ce:latest
