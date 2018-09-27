@@ -4,12 +4,13 @@ web:
   hostname: 'gitlab.yunwei.edu'
   environment:
     GITLAB_OMNIBUS_CONFIG: |
-      external_url 'http://gitlab.yunwei.edu:9090'
-      gitlab_rails['gitlab_shell_ssh_port'] = 2224
+      external_url 'http://gitlab.yunwei.edu:1180'
+      gitlab_rails['gitlab_shell_ssh_port'] = 122
   ports:
-    - '9090:9090'
-    - '2224:22'
+    - '1180:80'
+    - '1443:443'
+    - '122:22'
   volumes:
-    - '/srv/gitlab/config:/etc/gitlab'
-    - '/srv/gitlab/logs:/var/log/gitlab'
-    - '/srv/gitlab/data:/var/opt/gitlab'
+    - '/opt/cmp_gitlab/gitlab/config:/etc/gitlab'
+    - '/opt/cmp_gitlab/gitlab/logs:/var/log/gitlab'
+    - '/opt/cmp_gitlab/gitlab/data:/var/opt/gitlab'
