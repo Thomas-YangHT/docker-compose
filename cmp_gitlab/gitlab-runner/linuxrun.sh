@@ -5,3 +5,5 @@ useradd --comment 'GitLab Runner' --create-home gitlab-runner --shell /bin/bash
 gitlab-runner install --user=gitlab-runner --working-directory=/home/gitlab-runnersudo gitlab-runner start
 usermod -aG docker gitlab-runner
 sudo -u gitlab-runner -H docker info
+gitlab-runner install --user=gitlab-runner --working-directory=/home/gitlab-runner
+gitlab-runner start
