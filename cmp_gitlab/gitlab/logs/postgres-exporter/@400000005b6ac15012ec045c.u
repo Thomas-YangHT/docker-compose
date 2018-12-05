@@ -1,0 +1,2 @@
+2018-08-08_09:54:32.70151 time="2018-08-08T09:54:32Z" level=info msg="Error opening connection to database (user=gitlab-psql%20host=/var/opt/gitlab/postgresql%20database=postgres%20sslmode=allow): dial unix /var/opt/gitlab/postgresql/.s.PGSQL.5432: connect: connection refused" source="postgres_exporter.go:1012"
+2018-08-08_09:54:32.70159 time="2018-08-08T09:54:32Z" level=info msg="Starting Server: localhost:9187" source="postgres_exporter.go:1114"

@@ -1,0 +1,38 @@
+# Logfile created on 2018-08-08 05:03:16 +0000 by logger.rb/56438
+[2018-08-08T05:03:16+00:00] INFO: Started chef-zero at chefzero://localhost:1 with repository at /opt/gitlab/embedded
+  One version per cookbook
+
+[2018-08-08T05:03:16+00:00] INFO: *** Chef 13.6.4 ***
+[2018-08-08T05:03:16+00:00] INFO: Platform: x86_64-linux
+[2018-08-08T05:03:16+00:00] INFO: Chef-client pid: 21
+[2018-08-08T05:03:16+00:00] INFO: The plugin path /etc/chef/ohai/plugins does not exist. Skipping...
+[2018-08-08T05:03:16+00:00] WARN: Plugin Network: unable to detect ipaddress
+[2018-08-08T05:03:17+00:00] INFO: Setting the run_list to ["recipe[gitlab]"] from CLI options
+[2018-08-08T05:03:17+00:00] INFO: Run List is [recipe[gitlab]]
+[2018-08-08T05:03:17+00:00] INFO: Run List expands to [gitlab]
+[2018-08-08T05:03:17+00:00] INFO: Starting Chef Run for gitlab.yunwei.edu
+[2018-08-08T05:03:17+00:00] INFO: Running start handlers
+[2018-08-08T05:03:17+00:00] INFO: Start handlers complete.
+[2018-08-08T05:03:19+00:00] INFO: Loading cookbooks [gitlab@0.0.1, package@0.1.0, postgresql@0.1.0, registry@0.1.0, mattermost@0.1.0, consul@0.0.0, gitaly@0.1.0, letsencrypt@0.1.0, nginx@0.1.0, runit@0.14.2, acme@3.1.0, crond@0.1.0, compat_resource@12.19.0]
+[2018-08-08T05:03:22+00:00] WARN: Runtime directory '/run' is not a tmpfs.
+[2018-08-08T05:03:22+00:00] WARN: Skipped selecting an init system because it looks like we are running in a container
+[2018-08-08T05:03:23+00:00] INFO: The plugin path /etc/chef/ohai/plugins does not exist. Skipping...
+[2018-08-08T05:03:23+00:00] INFO: Running queued delayed notifications before re-raising exception
+[2018-08-08T05:03:23+00:00] ERROR: Running exception handlers
+[2018-08-08T05:03:23+00:00] ERROR: Exception handlers complete
+[2018-08-08T05:03:23+00:00] FATAL: Stacktrace dumped to /opt/gitlab/embedded/cookbooks/cache/chef-stacktrace.out
+[2018-08-08T05:03:23+00:00] FATAL: Please provide the contents of the stacktrace.out file if you file a bug report
+[2018-08-08T05:03:23+00:00] FATAL: Mixlib::ShellOut::ShellCommandFailed: execute[/opt/gitlab/embedded/service/gitlab-shell/bin/gitlab-keys check-permissions] (gitlab::gitlab-shell line 97) had an error: Mixlib::ShellOut::ShellCommandFailed: Expected process to exit with [0], but received '1'
+---- Begin output of /opt/gitlab/embedded/service/gitlab-shell/bin/gitlab-keys check-permissions ----
+STDOUT: 
+STDERR: /opt/gitlab/embedded/service/gitlab-shell/lib/gitlab_logger.rb:30:in `initialize': Permission denied @ rb_sysopen - /var/log/gitlab/gitlab-shell/gitlab-shell.log (Errno::EACCES)
+	from /opt/gitlab/embedded/service/gitlab-shell/lib/gitlab_logger.rb:30:in `open'
+	from /opt/gitlab/embedded/service/gitlab-shell/lib/gitlab_logger.rb:30:in `initialize'
+	from /opt/gitlab/embedded/service/gitlab-shell/lib/gitlab_logger.rb:119:in `new'
+	from /opt/gitlab/embedded/service/gitlab-shell/lib/gitlab_logger.rb:119:in `<top (required)>'
+	from /opt/gitlab/embedded/service/gitlab-shell/lib/gitlab_keys.rb:4:in `require_relative'
+	from /opt/gitlab/embedded/service/gitlab-shell/lib/gitlab_keys.rb:4:in `<top (required)>'
+	from /opt/gitlab/embedded/service/gitlab-shell/bin/gitlab-keys:24:in `require'
+	from /opt/gitlab/embedded/service/gitlab-shell/bin/gitlab-keys:24:in `<main>'
+---- End output of /opt/gitlab/embedded/service/gitlab-shell/bin/gitlab-keys check-permissions ----
+Ran /opt/gitlab/embedded/service/gitlab-shell/bin/gitlab-keys check-permissions returned 1

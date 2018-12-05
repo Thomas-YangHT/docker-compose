@@ -1,0 +1,15 @@
+       location ~^/smokeping/smokeping.fcgi {
+                gzip off;
+                fastcgi_pass 127.0.0.1:8999;
+                fastcgi_param SCRIPT_FILENAME /usr/share/smokeping/cgi/smokeping.fcgi;
+                include fastcgi_params;
+        }
+
+        location /smokeping/images {
+                alias /var/lib/smokeping/images;
+        }
+
+        location /smokeping/ {
+                alias /var/share/smokeping/htdocs;
+        }
+

@@ -1,0 +1,23 @@
+2018-05-23_12:36:02.61386 2018-05-23T12:36:01.532Z 461 TID-ov8lp2txc INFO: Booting Sidekiq 5.0.5 with redis options {:path=>"/var/opt/gitlab/redis/redis.socket", :namespace=>"resque:gitlab", :id=>"Sidekiq-server-PID-461", :url=>nil}
+2018-05-23_12:36:08.24260 2018-05-23T12:36:08.242Z 461 TID-ov8lp2txc INFO: Cron Jobs - add job with name: stuck_ci_jobs_worker
+2018-05-23_12:36:08.24546 2018-05-23T12:36:08.245Z 461 TID-ov8lp2txc INFO: Cron Jobs - add job with name: expire_build_artifacts_worker
+2018-05-23_12:36:08.24955 2018-05-23T12:36:08.249Z 461 TID-ov8lp2txc INFO: Cron Jobs - add job with name: pipeline_schedule_worker
+2018-05-23_12:36:08.25360 2018-05-23T12:36:08.253Z 461 TID-ov8lp2txc INFO: Cron Jobs - add job with name: repository_check_worker
+2018-05-23_12:36:08.25630 2018-05-23T12:36:08.255Z 461 TID-ov8lp2txc INFO: Cron Jobs - add job with name: admin_email_worker
+2018-05-23_12:36:08.25956 2018-05-23T12:36:08.259Z 461 TID-ov8lp2txc INFO: Cron Jobs - add job with name: repository_archive_cache_worker
+2018-05-23_12:36:08.26300 2018-05-23T12:36:08.262Z 461 TID-ov8lp2txc INFO: Cron Jobs - add job with name: pages_domain_verification_cron_worker
+2018-05-23_12:36:08.26623 2018-05-23T12:36:08.265Z 461 TID-ov8lp2txc INFO: Cron Jobs - add job with name: import_export_project_cleanup_worker
+2018-05-23_12:36:08.27430 2018-05-23T12:36:08.273Z 461 TID-ov8lp2txc INFO: Cron Jobs - add job with name: requests_profiles_worker
+2018-05-23_12:36:08.27952 2018-05-23T12:36:08.279Z 461 TID-ov8lp2txc INFO: Cron Jobs - add job with name: remove_expired_members_worker
+2018-05-23_12:36:08.28301 2018-05-23T12:36:08.282Z 461 TID-ov8lp2txc INFO: Cron Jobs - add job with name: remove_expired_group_links_worker
+2018-05-23_12:36:08.28979 2018-05-23T12:36:08.289Z 461 TID-ov8lp2txc INFO: Cron Jobs - add job with name: prune_old_events_worker
+2018-05-23_12:36:08.29295 2018-05-23T12:36:08.292Z 461 TID-ov8lp2txc INFO: Cron Jobs - add job with name: trending_projects_worker
+2018-05-23_12:36:08.29750 2018-05-23T12:36:08.297Z 461 TID-ov8lp2txc INFO: Cron Jobs - add job with name: remove_unreferenced_lfs_objects_worker
+2018-05-23_12:36:08.30160 2018-05-23T12:36:08.301Z 461 TID-ov8lp2txc INFO: Cron Jobs - add job with name: stuck_import_jobs_worker
+2018-05-23_12:36:08.30493 2018-05-23T12:36:08.304Z 461 TID-ov8lp2txc INFO: Cron Jobs - add job with name: gitlab_usage_ping_worker
+2018-05-23_12:36:08.31004 2018-05-23T12:36:08.309Z 461 TID-ov8lp2txc INFO: Cron Jobs - add job with name: schedule_update_user_activity_worker
+2018-05-23_12:36:08.31421 2018-05-23T12:36:08.314Z 461 TID-ov8lp2txc INFO: Cron Jobs - add job with name: remove_old_web_hook_logs_worker
+2018-05-23_12:36:08.57048 2018-05-23T12:36:08.565Z 461 TID-ov8lp2txc INFO: Cron Jobs - add job with name: stuck_merge_jobs_worker
+2018-05-23_13:01:38.57050 2018-05-23T13:01:37.809Z 461 TID-ov8lp2txc INFO: Running in ruby 2.3.6p384 (2017-12-14 revision 61254) [x86_64-linux]
+2018-05-23_13:01:38.61828 2018-05-23T13:01:38.285Z 461 TID-ov8lp2txc INFO: See LICENSE and the LGPL-3.0 for licensing details.
+2018-05-23_13:01:38.61831 2018-05-23T13:01:38.285Z 461 TID-ov8lp2txc INFO: Upgrade to Sidekiq Pro for more features and support: http://sidekiq.org

@@ -1,0 +1,20 @@
+2018-08-08_10:18:32.55398 2018-08-08T10:18:32.553Z 461 TID-osklctrls INFO: Booting Sidekiq 5.0.5 with redis options {:path=>"/var/opt/gitlab/redis/redis.socket", :namespace=>"resque:gitlab", :id=>"Sidekiq-server-PID-461", :url=>nil}
+2018-08-08_10:18:32.86782 2018-08-08T10:18:32.867Z 461 TID-osklctrls INFO: Cron Jobs - add job with name: stuck_ci_jobs_worker
+2018-08-08_10:18:32.87102 2018-08-08T10:18:32.870Z 461 TID-osklctrls INFO: Cron Jobs - add job with name: expire_build_artifacts_worker
+2018-08-08_10:18:32.87546 2018-08-08T10:18:32.875Z 461 TID-osklctrls INFO: Cron Jobs - add job with name: pipeline_schedule_worker
+2018-08-08_10:18:32.87940 2018-08-08T10:18:32.879Z 461 TID-osklctrls INFO: Cron Jobs - add job with name: repository_check_worker
+2018-08-08_10:18:32.88920 2018-08-08T10:18:32.885Z 461 TID-osklctrls INFO: Cron Jobs - add job with name: admin_email_worker
+2018-08-08_10:18:32.89549 2018-08-08T10:18:32.895Z 461 TID-osklctrls INFO: Cron Jobs - add job with name: repository_archive_cache_worker
+2018-08-08_10:18:32.91768 2018-08-08T10:18:32.917Z 461 TID-osklctrls INFO: Cron Jobs - add job with name: pages_domain_verification_cron_worker
+2018-08-08_10:18:32.93352 2018-08-08T10:18:32.933Z 461 TID-osklctrls INFO: Cron Jobs - add job with name: import_export_project_cleanup_worker
+2018-08-08_10:18:32.93947 2018-08-08T10:18:32.939Z 461 TID-osklctrls INFO: Cron Jobs - add job with name: requests_profiles_worker
+2018-08-08_10:18:32.94191 2018-08-08T10:18:32.941Z 461 TID-osklctrls INFO: Cron Jobs - add job with name: remove_expired_members_worker
+2018-08-08_10:18:32.95463 2018-08-08T10:18:32.952Z 461 TID-osklctrls INFO: Cron Jobs - add job with name: remove_expired_group_links_worker
+2018-08-08_10:18:32.96449 2018-08-08T10:18:32.964Z 461 TID-osklctrls INFO: Cron Jobs - add job with name: prune_old_events_worker
+2018-08-08_10:18:32.96650 2018-08-08T10:18:32.966Z 461 TID-osklctrls INFO: Cron Jobs - add job with name: trending_projects_worker
+2018-08-08_10:18:32.97935 2018-08-08T10:18:32.979Z 461 TID-osklctrls INFO: Cron Jobs - add job with name: remove_unreferenced_lfs_objects_worker
+2018-08-08_10:18:32.98806 2018-08-08T10:18:32.987Z 461 TID-osklctrls INFO: Cron Jobs - add job with name: stuck_import_jobs_worker
+2018-08-08_10:18:32.99681 2018-08-08T10:18:32.996Z 461 TID-osklctrls INFO: Cron Jobs - add job with name: gitlab_usage_ping_worker
+2018-08-08_10:18:32.99984 2018-08-08T10:18:32.999Z 461 TID-osklctrls INFO: Cron Jobs - add job with name: schedule_update_user_activity_worker
+2018-08-08_10:18:33.03116 2018-08-08T10:18:33.030Z 461 TID-osklctrls INFO: Cron Jobs - add job with name: remove_old_web_hook_logs_worker
+2018-08-08_10:18:33.04802 2018-08-08T10:18:33.046Z 461 TID-osklctrls INFO: Cron Jobs - add job with name: stuck_merge_jobs_worker

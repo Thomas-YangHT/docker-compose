@@ -1,0 +1,45 @@
+# Logfile created on 2018-08-08 07:26:15 +0000 by logger.rb/56438
+[2018-08-08T07:26:15+00:00] INFO: Started chef-zero at chefzero://localhost:1 with repository at /opt/gitlab/embedded
+  One version per cookbook
+
+[2018-08-08T07:26:15+00:00] INFO: *** Chef 13.6.4 ***
+[2018-08-08T07:26:15+00:00] INFO: Platform: x86_64-linux
+[2018-08-08T07:26:15+00:00] INFO: Chef-client pid: 22
+[2018-08-08T07:26:15+00:00] INFO: The plugin path /etc/chef/ohai/plugins does not exist. Skipping...
+[2018-08-08T07:26:16+00:00] WARN: Plugin Network: unable to detect ipaddress
+[2018-08-08T07:26:16+00:00] INFO: Setting the run_list to ["recipe[gitlab]"] from CLI options
+[2018-08-08T07:26:16+00:00] INFO: Run List is [recipe[gitlab]]
+[2018-08-08T07:26:16+00:00] INFO: Run List expands to [gitlab]
+[2018-08-08T07:26:16+00:00] INFO: Starting Chef Run for gitlab.yunwei.edu
+[2018-08-08T07:26:16+00:00] INFO: Running start handlers
+[2018-08-08T07:26:16+00:00] INFO: Start handlers complete.
+[2018-08-08T07:26:18+00:00] INFO: Loading cookbooks [gitlab@0.0.1, package@0.1.0, postgresql@0.1.0, registry@0.1.0, mattermost@0.1.0, consul@0.0.0, gitaly@0.1.0, letsencrypt@0.1.0, nginx@0.1.0, runit@0.14.2, acme@3.1.0, crond@0.1.0, compat_resource@12.19.0]
+[2018-08-08T07:26:20+00:00] WARN: Runtime directory '/run' is not a tmpfs.
+[2018-08-08T07:26:21+00:00] WARN: Skipped selecting an init system because it looks like we are running in a container
+[2018-08-08T07:26:21+00:00] INFO: The plugin path /etc/chef/ohai/plugins does not exist. Skipping...
+[2018-08-08T07:26:22+00:00] INFO: execute[/opt/gitlab/embedded/service/gitlab-shell/bin/gitlab-keys check-permissions] ran successfully
+[2018-08-08T07:26:22+00:00] INFO: link[Link /opt/gitlab/embedded/service/gitlab-rails/config/initializers/smtp_settings.rb to /var/opt/gitlab/gitlab-rails/etc/smtp_settings.rb] created
+[2018-08-08T07:26:22+00:00] INFO: template[/var/opt/gitlab/gitlab-rails/etc/gitlab.yml] backed up to /opt/gitlab/embedded/cookbooks/cache/backup/var/opt/gitlab/gitlab-rails/etc/gitlab.yml.chef-20180808072622.950557
+[2018-08-08T07:26:22+00:00] INFO: template[/var/opt/gitlab/gitlab-rails/etc/gitlab.yml] updated file contents /var/opt/gitlab/gitlab-rails/etc/gitlab.yml
+[2018-08-08T07:26:23+00:00] INFO: execute[chown -R root:root /opt/gitlab/embedded/service/gitlab-rails/public] ran successfully
+[2018-08-08T07:26:23+00:00] INFO: link[/opt/gitlab/service/redis] created
+[2018-08-08T07:26:23+00:00] INFO: link[/opt/gitlab/service/postgresql] created
+[2018-08-08T07:26:23+00:00] INFO: link[/opt/gitlab/service/unicorn] created
+[2018-08-08T07:26:23+00:00] INFO: link[/opt/gitlab/service/sidekiq] created
+[2018-08-08T07:26:23+00:00] INFO: link[/opt/gitlab/service/gitlab-workhorse] created
+[2018-08-08T07:26:23+00:00] INFO: template[/var/opt/gitlab/nginx/conf/gitlab-http.conf] backed up to /opt/gitlab/embedded/cookbooks/cache/backup/var/opt/gitlab/nginx/conf/gitlab-http.conf.chef-20180808072623.927127
+[2018-08-08T07:26:23+00:00] INFO: template[/var/opt/gitlab/nginx/conf/gitlab-http.conf] updated file contents /var/opt/gitlab/nginx/conf/gitlab-http.conf
+[2018-08-08T07:26:23+00:00] INFO: link[/opt/gitlab/service/nginx] created
+[2018-08-08T07:26:24+00:00] INFO: link[/opt/gitlab/service/logrotate] created
+[2018-08-08T07:26:24+00:00] INFO: link[/opt/gitlab/service/gitaly] created
+[2018-08-08T07:26:24+00:00] INFO: template[/opt/gitlab/etc/gitlab-healthcheck-rc] backed up to /opt/gitlab/embedded/cookbooks/cache/backup/opt/gitlab/etc/gitlab-healthcheck-rc.chef-20180808072624.138934
+[2018-08-08T07:26:24+00:00] INFO: template[/opt/gitlab/etc/gitlab-healthcheck-rc] updated file contents /opt/gitlab/etc/gitlab-healthcheck-rc
+[2018-08-08T07:26:24+00:00] INFO: link[/opt/gitlab/service/node-exporter] created
+[2018-08-08T07:26:24+00:00] INFO: link[/opt/gitlab/service/gitlab-monitor] created
+[2018-08-08T07:26:24+00:00] INFO: link[/opt/gitlab/service/redis-exporter] created
+[2018-08-08T07:26:24+00:00] INFO: link[/opt/gitlab/service/prometheus] created
+[2018-08-08T07:26:24+00:00] INFO: link[/opt/gitlab/service/postgres-exporter] created
+[2018-08-08T07:26:24+00:00] INFO: templatesymlink[Create a gitlab.yml and create a symlink to Rails root] sending run action to execute[clear the gitlab-rails cache] (delayed)
+[2018-08-08T07:26:24+00:00] INFO: Chef Run complete in 7.54856953 seconds
+[2018-08-08T07:26:24+00:00] INFO: Running report handlers
+[2018-08-08T07:26:24+00:00] INFO: Report handlers complete

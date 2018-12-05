@@ -1,0 +1,14 @@
+2018-08-08_08:59:48.95188 LOG:  database system was interrupted; last known up at 2018-08-08 08:57:53 GMT
+2018-08-08_09:00:25.18205 LOG:  database system was not properly shut down; automatic recovery in progress
+2018-08-08_09:00:25.21670 LOG:  redo starts at 0/1A483B0
+2018-08-08_09:00:25.22583 LOG:  invalid record length at 0/1A4A180: wanted 24, got 0
+2018-08-08_09:00:25.22584 LOG:  redo done at 0/1A483B0
+2018-08-08_09:00:25.32311 LOG:  MultiXact member wraparound protections are now enabled
+2018-08-08_09:00:25.33225 LOG:  database system is ready to accept connections
+2018-08-08_09:00:25.35239 LOG:  autovacuum launcher started
+2018-08-08_09:14:06.75041 received TERM from runit, sending INT instead to force quit connections
+2018-08-08_09:14:06.77425 LOG:  received fast shutdown request
+2018-08-08_09:14:06.77426 LOG:  aborting any active transactions
+2018-08-08_09:14:06.77568 LOG:  autovacuum launcher shutting down
+2018-08-08_09:14:06.77653 LOG:  shutting down
+2018-08-08_09:14:06.91074 LOG:  database system is shut down

@@ -1,0 +1,15 @@
+2018-05-23_12:23:16.65695 time="2018-05-23T12:23:16Z" level=info msg=Starting version="gitlab-workhorse v4.1.0-20180502.220512"
+2018-05-23_12:23:16.66022 time="2018-05-23T12:23:16Z" level=info msg="keywatcher: starting process loop"
+2018-05-23_12:23:16.66024 time="2018-05-23T12:23:16Z" level=info msg="redis: dialing" address=/var/opt/gitlab/redis/redis.socket network=unix
+2018-05-23_12:23:32.82241 time="2018-05-23T12:23:32Z" level=error msg=error error="badgateway: failed after 0s: dial unix /var/opt/gitlab/gitlab-rails/sockets/gitlab.socket: connect: connection refused" method=GET uri=/help
+2018-05-23_12:23:32.87463 localhost @ - - [2018/05/23:12:23:32 +0000] "GET /help HTTP/1.1" 502 2916 "" "curl/7.56.1" 0.052
+2018-05-23_12:24:37.19355 time="2018-05-23T12:24:37Z" level=error msg=error error="badgateway: failed after 0s: dial unix /var/opt/gitlab/gitlab-rails/sockets/gitlab.socket: connect: connection refused" method=GET uri=/help
+2018-05-23_12:24:37.32950 localhost @ - - [2018/05/23:12:24:37 +0000] "GET /help HTTP/1.1" 502 2916 "" "curl/7.56.1" 0.275
+2018-05-23_12:26:18.93445 time="2018-05-23T12:26:18Z" level=error msg=error error="badgateway: failed after 0s: dial unix /var/opt/gitlab/gitlab-rails/sockets/gitlab.socket: connect: connection refused" method=GET uri=/help
+2018-05-23_12:26:19.56275 localhost @ - - [2018/05/23:12:26:19 +0000] "GET /help HTTP/1.1" 502 2916 "" "curl/7.56.1" 1.752
+2018-05-23_12:27:30.16334 time="2018-05-23T12:27:30Z" level=error msg=error error="badgateway: failed after 0s: dial unix /var/opt/gitlab/gitlab-rails/sockets/gitlab.socket: connect: connection refused" method=GET uri=/help
+2018-05-23_12:27:30.62854 localhost @ - - [2018/05/23:12:27:30 +0000] "GET /help HTTP/1.1" 502 2916 "" "curl/7.56.1" 0.469
+2018-05-23_12:28:39.45265 time="2018-05-23T12:28:39Z" level=error msg=error error="badgateway: failed after 0s: dial unix /var/opt/gitlab/gitlab-rails/sockets/gitlab.socket: connect: connection refused" method=GET uri=/help
+2018-05-23_12:28:39.87613 localhost @ - - [2018/05/23:12:28:39 +0000] "GET /help HTTP/1.1" 502 2916 "" "curl/7.56.1" 0.559
+2018-05-23_12:34:08.80869 time="2018-05-23T12:34:08Z" level=error msg=error error="badgateway: failed after 0s: dial unix /var/opt/gitlab/gitlab-rails/sockets/gitlab.socket: connect: connection refused" method=GET uri=/help
+2018-05-23_12:34:08.88484 localhost @ - - [2018/05/23:12:34:08 +0000] "GET /help HTTP/1.1" 502 2916 "" "curl/7.56.1" 1.031

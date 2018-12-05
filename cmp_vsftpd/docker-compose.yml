@@ -1,0 +1,18 @@
+vsftpd:
+    image: 192.168.254.211:5000/fauria/vsftpd
+    ports:
+      - "20:20"
+      - "21:21" 
+      - "21100-21110:21100-21110"
+    volumes:
+      - /export/download:/home/vsftpd
+      - ./vsftpd.conf:/etc/vsftpd/vsftpd.conf
+      - ./run-vsftpd.sh:/usr/sbin/run-vsftpd.sh
+    environment:
+      - TZ=Asia/Shanghai
+      - FTP_USER=myuser 
+      - FTP_PASS=mypass 
+     # - PASV_ADDRESS=192.168.100.222 
+     # - PASV_MIN_PORT=21100 
+     # - PASV_MAX_PORT=21110 
+    restart: always

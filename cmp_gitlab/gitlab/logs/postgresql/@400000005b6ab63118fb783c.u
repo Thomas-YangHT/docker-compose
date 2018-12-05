@@ -1,0 +1,10 @@
+2018-08-08_09:14:25.72699 LOG:  database system was shut down at 2018-08-08 09:14:06 GMT
+2018-08-08_09:14:25.77876 LOG:  MultiXact member wraparound protections are now enabled
+2018-08-08_09:14:25.78428 LOG:  database system is ready to accept connections
+2018-08-08_09:14:25.84289 LOG:  autovacuum launcher started
+2018-08-08_09:21:17.59322 received TERM from runit, sending INT instead to force quit connections
+2018-08-08_09:21:17.61526 LOG:  received fast shutdown request
+2018-08-08_09:21:17.61527 LOG:  aborting any active transactions
+2018-08-08_09:21:17.61667 LOG:  autovacuum launcher shutting down
+2018-08-08_09:21:17.61779 LOG:  shutting down
+2018-08-08_09:21:17.75653 LOG:  database system is shut down

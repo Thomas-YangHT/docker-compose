@@ -1,0 +1,6 @@
+2018-08-08_06:05:12.24691 starting new unicorn master
+2018-08-08_06:06:39.47051 adopted new unicorn master 566
+2018-08-08_06:09:35.83934 Received TERM from runit, sending to process group (-PID)
+2018-08-08_06:09:35.84383 Terminated
+2018-08-08_06:09:35.84384 forwarding TERM to unicorn master 566
+2018-08-08_06:09:35.84384 wrapper for unicorn master 566 exiting

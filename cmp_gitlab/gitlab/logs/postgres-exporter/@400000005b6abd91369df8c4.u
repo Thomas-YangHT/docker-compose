@@ -1,0 +1,2 @@
+2018-08-08_09:41:24.21604 time="2018-08-08T09:41:24Z" level=info msg="Error opening connection to database (user=gitlab-psql%20host=/var/opt/gitlab/postgresql%20database=postgres%20sslmode=allow): dial unix /var/opt/gitlab/postgresql/.s.PGSQL.5432: connect: no such file or directory" source="postgres_exporter.go:1012"
+2018-08-08_09:41:24.21611 time="2018-08-08T09:41:24Z" level=info msg="Starting Server: localhost:9187" source="postgres_exporter.go:1114"

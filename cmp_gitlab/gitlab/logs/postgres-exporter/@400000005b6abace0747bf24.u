@@ -1,0 +1,2 @@
+2018-08-08_09:34:05.67992 time="2018-08-08T09:34:05Z" level=info msg="Error opening connection to database (user=gitlab-psql%20host=/var/opt/gitlab/postgresql%20database=postgres%20sslmode=allow): pq: the database system is starting up" source="postgres_exporter.go:1012"
+2018-08-08_09:34:05.68000 time="2018-08-08T09:34:05Z" level=info msg="Starting Server: localhost:9187" source="postgres_exporter.go:1114"

@@ -1,0 +1,284 @@
+AWSTATS DATA FILE 7.7 (build 20180105)
+# If you remove this file, all statistics for date 201808 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.zabbix.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 30
+POS_GENERAL 2059                
+POS_TIME 2742                
+POS_VISITOR 6831                
+POS_DAY 7093                
+POS_DOMAIN 3389                
+POS_LOGIN 3624                
+POS_ROBOT 3779                
+POS_WORMS 3911                
+POS_EMAILSENDER 4042                
+POS_EMAILRECEIVER 4185                
+POS_SESSION 7313                
+POS_SIDER 7465                
+POS_FILETYPES 4320                
+POS_DOWNLOADS 4407                
+POS_OS 4455                
+POS_BROWSER 4538                
+POS_SCREENSIZE 4665                
+POS_UNKNOWNREFERER 4739                
+POS_UNKNOWNREFERERBROWSER 4826                
+POS_ORIGIN 4908                
+POS_SEREFERRALS 5046                
+POS_PAGEREFS 5190                
+POS_SEARCHWORDS 6054                
+POS_KEYWORDS 6206                
+POS_MISC 2406                
+POS_ERRORS 6265                
+POS_CLUSTER 3480                
+POS_SIDER_403 6358                
+POS_SIDER_400 6440                
+POS_SIDER_404 6522                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20180809055010 46315 12640810 13829798233383
+FirstTime 20180801163030
+LastTime 20180809055010
+LastUpdate 20180810030102 0 0 0 0 0
+TotalVisits 13                  
+TotalUnique 4                   
+MonthHostsKnown 0                   
+MonthHostsUnknown 4                   
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 79 79 209324 1 1 5
+1 661 661 1186935 0 0 0
+2 676 676 1204278 0 0 0
+3 47 47 106697 0 0 0
+4 1 1 3165 0 0 0
+5 1244 1244 2295326 1 1 5
+6 1959 1959 3630940 0 0 0
+7 1787 1787 3674820 0 0 0
+8 2334 2334 5919549 1 1 0
+9 2171 2171 3978607 0 0 0
+10 1764 1764 4445702 1 1 5
+11 775 775 1768505 0 0 0
+12 1510 1510 5322181 0 0 0
+13 1446 1446 5102881 0 0 0
+14 1308 1308 3540175 0 0 0
+15 137 137 361352 0 0 0
+16 1 1 3165 0 0 0
+17 0 0 0 0 0 0
+18 0 0 0 0 0 0
+19 0 0 0 0 0 0
+20 0 0 0 0 0 0
+21 0 0 0 0 0 0
+22 0 0 0 0 0 0
+23 1 1 3165 0 1 0
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 17901 17901 42756767
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 1
+php 17901 42756767 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 1
+win10 17901 17901
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 4
+firefox61.0 3 3
+msie11.0 3 3
+chrome66.0.3359.139 17894 17894
+netscape5.0 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 0
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 1 1
+From1 0 0
+From2 0 0
+From3 17900 17900
+From4 0 0
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 16
+http://zabbix.yunwei.edu/zabbix.php 12706 12706
+http://zabbix.yunwei.edu/items.php 1564 1564
+http://zabbix.yunwei.edu/charts.php 1266 1266
+http://zabbix.yunwei.edu/latest.php 1097 1097
+http://zabbix.yunwei.edu/graphs.php 904 904
+http://zabbix.yunwei.edu/templates.php 112 112
+http://zabbix.yunwei.edu/hosts.php 92 92
+http://zabbix.yunwei.edu/hostgroups.php 40 40
+http://zabbix.yunwei.edu/adm.valuemapping.php 39 39
+http://zabbix.yunwei.edu/history.php 37 37
+http://zabbix.yunwei.edu/overview.php 9 9
+http://zabbix.yunwei.edu/applications.php 6 6
+http://zabbix.yunwei.edu/tr_status.php 16 16
+http://adm.yunwei.edu/adm/index.php 7 7
+http://172.16.254.120:8100/adm/index.php 1 1
+http://zabbix.yunwei.edu/popup.php 4 4
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 2
+302 3 15
+499 2 0
+END_ERRORS
+
+# URL with 403 errors - Hits - Last URL referrer
+BEGIN_SIDER_403 0
+END_SIDER_403
+
+# URL with 400 errors - Hits - Last URL referrer
+BEGIN_SIDER_400 0
+END_SIDER_400
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 0
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 4
+192.168.255.14 17898 17898 42749461 20180809055010 20180809055010 /zabbix.php
+92.168.255.14 1 1 76 20180805085638
+2.168.255.14 1 1 4065 20180805102103
+172.16.254.125 1 1 3165 20180802235010
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 7
+20180801 1 1 3165 1
+20180802 2 2 27162 2
+20180804 1 1 3165 1
+20180805 6464 6464 12124533 5
+20180806 1 1 3165 1
+20180807 11431 11431 30571580 2
+20180809 1 1 23997 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 2
+1h+ 5
+0s-30s 7
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 19
+/jsrpc.php 10653 888054 2 5
+/zabbix.php 6106 23695124 7 3
+/jsLoader.php 539 0 0 0
+/chart2.php 322 10709322 0 0
+/latest.php 134 2820691 0 0
+/items.php 59 1998728 0 0
+/templates.php 23 1089248 0 0
+/hosts.php 14 616121 0 0
+/charts.php 10 114344 0 0
+/graphs.php 8 194518 0 0
+/ 4 12660 4 4
+/overview.php 2 47642 0 0
+/chart.php 8 214443 0 0
+/applications.php 1 19968 0 0
+/adm.valuemapping.php 2 55063 0 0
+/tr_status.php 4 98048 0 0
+/history.php 3 36659 0 0
+/hostgroups.php 5 92404 0 0
+/popup.php 4 53730 0 0
+END_SIDER

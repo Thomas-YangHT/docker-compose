@@ -1,0 +1,1 @@
+10  * * * * (cd /usr/share/awstats/wwwroot/cgi-bin; ./awstats.pl -update -config=download)

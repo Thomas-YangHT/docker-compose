@@ -1,0 +1,7 @@
+2018-08-10_03:44:42.54840 [2018-08-10 03:44:42] INFO  WEBrick 1.3.1
+2018-08-10_03:44:42.54851 [2018-08-10 03:44:42] INFO  ruby 2.3.6 (2017-12-14) [x86_64-linux]
+2018-08-10_03:44:42.54852 == Sinatra (v1.4.8) has taken the stage on 9168 for development with backup from WEBrick
+2018-08-10_03:44:42.54853 [2018-08-10 03:44:42] INFO  WEBrick::HTTPServer#start: pid=481 port=9168
+2018-08-10_03:51:59.60503 == Sinatra has ended his set (crowd applauds)
+2018-08-10_03:51:59.60505 [2018-08-10 03:51:59] INFO  going to shutdown ...
+2018-08-10_03:51:59.60505 [2018-08-10 03:51:59] INFO  WEBrick::HTTPServer#start done.

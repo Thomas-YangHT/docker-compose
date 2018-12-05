@@ -1,0 +1,8 @@
+haproxy:
+    image: 192.168.254.211:5000/haproxy:latest
+    volumes:
+      - /opt/haproxy/haproxy.cfg:/usr/local/etc/haproxy/haproxy.cfg:ro
+    ports:
+      - "80:80"
+      - "1080:1080"
+    restart: always

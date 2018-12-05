@@ -1,0 +1,18 @@
+#version: "3"
+#services:
+  zbx_agent:
+    image: 192.168.254.211:5000/zabbix/zabbix-agent 
+    environment:
+        - ZBX_HOSTNAME=${ZBX_HOSTNAME}
+        - ZBX_SERVER_HOST=192.168.254.113
+        - ZBX_SERVER_PORT=10051 
+        - TZ='Asia/Shanghai' 
+    ports:
+       - 10050:10050 
+    volumes:
+       - /opt/zabbix:/etc/zabbix
+       - /opt/zabbix_agentd.d:/etc/zabbix/zabbix_agentd.d:ro
+    net: host
+    privileged: true
+    restart: always
+  #  env_file: .env

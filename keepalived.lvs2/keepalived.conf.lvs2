@@ -1,0 +1,58 @@
+vrrp_instance VI_1 {
+    state BACKUP
+    interface eth0
+    virtual_router_id 57
+    priority 95
+    advert_int 1
+    authentication {
+        auth_type PASS
+        auth_pass 1111
+    }
+    virtual_ipaddress {
+        192.168.254.246
+    }
+}
+
+vrrp_instance VI_2 {
+    state MASTER
+    interface eth0
+    virtual_router_id 58
+    priority 100
+    advert_int 1
+    authentication {
+        auth_type PASS
+        auth_pass 1111
+    }
+    virtual_ipaddress {
+        192.168.254.247
+    }
+}
+ 
+virtual_server 192.168.254.246 80 {
+    delay_loop 6
+    lb_algo rr
+    lb_kind DR
+    persistence_timeout 0
+    protocol TCP
+
+    real_server 192.168.254.5 80 {
+        weight 1
+        TCP_CHECK {
+            connect_timeout 10
+            nb_get_retry 3
+            delay_before_retry 3
+            connect_port 80
+        }
+    }
+
+    real_server 192.168.254.6 80 {
+        weight 1
+        TCP_CHECK {
+            connect_timeout 10
+            nb_get_retry 3
+            delay_before_retry 3
+            connect_port 80
+        }
+    }
+	
+}

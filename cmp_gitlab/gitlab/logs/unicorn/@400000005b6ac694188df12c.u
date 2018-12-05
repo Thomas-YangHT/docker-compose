@@ -1,0 +1,27 @@
+2018-08-08_10:26:10.95627 starting new unicorn master
+2018-08-08_10:26:54.49068 master failed to start, check stderr log for details
+2018-08-08_10:26:55.52880 failed to start a new unicorn master
+2018-08-08_10:26:55.59065 starting new unicorn master
+2018-08-08_10:27:32.29960 master failed to start, check stderr log for details
+2018-08-08_10:27:33.36781 failed to start a new unicorn master
+2018-08-08_10:27:33.45994 starting new unicorn master
+2018-08-08_10:28:10.80790 master failed to start, check stderr log for details
+2018-08-08_10:28:11.86777 failed to start a new unicorn master
+2018-08-08_10:28:11.99766 starting new unicorn master
+2018-08-08_10:28:47.97465 master failed to start, check stderr log for details
+2018-08-08_10:28:49.00095 failed to start a new unicorn master
+2018-08-08_10:28:49.06451 starting new unicorn master
+2018-08-08_10:29:25.45963 master failed to start, check stderr log for details
+2018-08-08_10:29:26.48884 failed to start a new unicorn master
+2018-08-08_10:29:26.59375 starting new unicorn master
+2018-08-08_10:30:04.78376 master failed to start, check stderr log for details
+2018-08-08_10:30:05.82049 failed to start a new unicorn master
+2018-08-08_10:30:05.91618 starting new unicorn master
+2018-08-08_10:30:07.15669 Received TERM from runit, sending to process group (-PID)
+2018-08-08_10:30:07.17292 bundler: failed to load command: unicorn (/opt/gitlab/embedded/bin/unicorn)
+2018-08-08_10:30:07.17294 SignalException: SIGTERM
+2018-08-08_10:30:07.17295   /opt/gitlab/embedded/lib/ruby/gems/2.3.0/gems/unicorn-5.1.0/lib/unicorn/launcher.rb:46:in `readpartial'
+2018-08-08_10:30:07.17295   /opt/gitlab/embedded/lib/ruby/gems/2.3.0/gems/unicorn-5.1.0/lib/unicorn/launcher.rb:46:in `daemonize!'
+2018-08-08_10:30:07.17295   /opt/gitlab/embedded/lib/ruby/gems/2.3.0/gems/unicorn-5.1.0/bin/unicorn:125:in `<top (required)>'
+2018-08-08_10:30:07.17295   /opt/gitlab/embedded/bin/unicorn:23:in `load'
+2018-08-08_10:30:07.17295   /opt/gitlab/embedded/bin/unicorn:23:in `<top (required)>'

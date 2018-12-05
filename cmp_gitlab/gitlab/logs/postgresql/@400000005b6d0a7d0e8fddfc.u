@@ -1,0 +1,72 @@
+2018-08-10_03:44:40.77483 LOG:  database system was interrupted; last known up at 2018-08-09 09:21:58 GMT
+2018-08-10_03:44:48.59348 LOG:  database system was not properly shut down; automatic recovery in progress
+2018-08-10_03:44:48.85560 LOG:  invalid record length at 0/1A517D8: wanted 24, got 0
+2018-08-10_03:44:48.85562 LOG:  redo is not required
+2018-08-10_03:44:48.86959 LOG:  MultiXact member wraparound protections are now enabled
+2018-08-10_03:44:48.86960 LOG:  database system is ready to accept connections
+2018-08-10_03:44:48.87130 LOG:  autovacuum launcher started
+2018-08-10_03:46:49.02608 LOG:  lock file "postmaster.pid" contains wrong PID: 432 instead of 489
+2018-08-10_03:46:49.02609 LOG:  performing immediate shutdown because data directory lock file is invalid
+2018-08-10_03:46:49.02610 LOG:  received immediate shutdown request
+2018-08-10_03:46:49.02750 WARNING:  terminating connection because of crash of another server process
+2018-08-10_03:46:49.02751 DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2018-08-10_03:46:49.02751 HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2018-08-10_03:46:49.02814 WARNING:  terminating connection because of crash of another server process
+2018-08-10_03:46:49.02815 DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2018-08-10_03:46:49.02816 HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2018-08-10_03:46:49.03019 LOG:  database system is shut down
+2018-08-10_03:46:49.06561 LOG:  database system was interrupted; last known up at 2018-08-10 03:46:33 GMT
+2018-08-10_03:46:49.55895 LOG:  database system was not properly shut down; automatic recovery in progress
+2018-08-10_03:46:49.56081 LOG:  invalid record length at 0/1A518B8: wanted 24, got 0
+2018-08-10_03:46:49.56082 LOG:  redo is not required
+2018-08-10_03:46:49.56410 LOG:  MultiXact member wraparound protections are now enabled
+2018-08-10_03:46:49.56411 LOG:  database system is ready to accept connections
+2018-08-10_03:46:49.56593 LOG:  autovacuum launcher started
+2018-08-10_03:47:49.62344 LOG:  lock file "postmaster.pid" contains wrong PID: 1004 instead of 1167
+2018-08-10_03:47:49.62346 LOG:  performing immediate shutdown because data directory lock file is invalid
+2018-08-10_03:47:49.62346 LOG:  received immediate shutdown request
+2018-08-10_03:47:49.62458 WARNING:  terminating connection because of crash of another server process
+2018-08-10_03:47:49.62459 DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2018-08-10_03:47:49.62459 HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2018-08-10_03:47:49.62688 LOG:  database system is shut down
+2018-08-10_03:47:49.68813 LOG:  database system was interrupted; last known up at 2018-08-10 03:46:49 GMT
+2018-08-10_03:48:15.60532 LOG:  database system was not properly shut down; automatic recovery in progress
+2018-08-10_03:48:15.60987 LOG:  invalid record length at 0/1A51928: wanted 24, got 0
+2018-08-10_03:48:15.60988 LOG:  redo is not required
+2018-08-10_03:48:15.61451 LOG:  MultiXact member wraparound protections are now enabled
+2018-08-10_03:48:15.61452 LOG:  database system is ready to accept connections
+2018-08-10_03:48:15.61582 LOG:  autovacuum launcher started
+2018-08-10_03:50:15.71774 LOG:  lock file "postmaster.pid" contains wrong PID: 1442 instead of 1425
+2018-08-10_03:50:15.71777 LOG:  performing immediate shutdown because data directory lock file is invalid
+2018-08-10_03:50:15.71777 LOG:  received immediate shutdown request
+2018-08-10_03:50:15.71863 WARNING:  terminating connection because of crash of another server process
+2018-08-10_03:50:15.71864 DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2018-08-10_03:50:15.71865 HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2018-08-10_03:50:15.73918 LOG:  database system is shut down
+2018-08-10_03:50:15.77569 LOG:  database system was interrupted; last known up at 2018-08-10 03:49:56 GMT
+2018-08-10_03:50:16.27134 LOG:  database system was not properly shut down; automatic recovery in progress
+2018-08-10_03:50:16.27337 LOG:  invalid record length at 0/1A51A78: wanted 24, got 0
+2018-08-10_03:50:16.27339 LOG:  redo is not required
+2018-08-10_03:50:16.27699 LOG:  MultiXact member wraparound protections are now enabled
+2018-08-10_03:50:16.27783 LOG:  database system is ready to accept connections
+2018-08-10_03:50:16.27949 LOG:  autovacuum launcher started
+2018-08-10_03:51:16.35091 LOG:  lock file "postmaster.pid" contains wrong PID: 1787 instead of 2057
+2018-08-10_03:51:16.35092 LOG:  performing immediate shutdown because data directory lock file is invalid
+2018-08-10_03:51:16.35093 LOG:  received immediate shutdown request
+2018-08-10_03:51:16.35243 WARNING:  terminating connection because of crash of another server process
+2018-08-10_03:51:16.35243 DETAIL:  The postmaster has commanded this server process to roll back the current transaction and exit, because another server process exited abnormally and possibly corrupted shared memory.
+2018-08-10_03:51:16.35244 HINT:  In a moment you should be able to reconnect to the database and repeat your command.
+2018-08-10_03:51:16.39660 LOG:  database system is shut down
+2018-08-10_03:51:16.45985 LOG:  database system was interrupted; last known up at 2018-08-10 03:50:16 GMT
+2018-08-10_03:51:41.04605 LOG:  database system was not properly shut down; automatic recovery in progress
+2018-08-10_03:51:41.04793 LOG:  invalid record length at 0/1A51AE8: wanted 24, got 0
+2018-08-10_03:51:41.04794 LOG:  redo is not required
+2018-08-10_03:51:41.05230 LOG:  MultiXact member wraparound protections are now enabled
+2018-08-10_03:51:41.05296 LOG:  database system is ready to accept connections
+2018-08-10_03:51:41.05443 LOG:  autovacuum launcher started
+2018-08-10_03:52:02.13899 received TERM from runit, sending INT instead to force quit connections
+2018-08-10_03:52:02.14057 LOG:  received fast shutdown request
+2018-08-10_03:52:02.14058 LOG:  aborting any active transactions
+2018-08-10_03:52:02.14163 LOG:  autovacuum launcher shutting down
+2018-08-10_03:52:02.14189 LOG:  shutting down
+2018-08-10_03:52:02.20599 LOG:  database system is shut down

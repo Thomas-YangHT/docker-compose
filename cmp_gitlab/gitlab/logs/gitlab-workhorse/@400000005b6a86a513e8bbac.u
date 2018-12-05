@@ -1,0 +1,9 @@
+2018-08-08_05:52:49.07032 time="2018-08-08T05:52:49Z" level=info msg=Starting version="gitlab-workhorse v4.1.0-20180502.220512"
+2018-08-08_05:52:49.07043 time="2018-08-08T05:52:49Z" level=info msg="keywatcher: starting process loop"
+2018-08-08_05:52:49.07044 time="2018-08-08T05:52:49Z" level=info msg="redis: dialing" address=/var/opt/gitlab/redis/redis.socket network=unix
+2018-08-08_05:53:29.79354 time="2018-08-08T05:53:29Z" level=error msg=error error="badgateway: failed after 0s: dial unix /var/opt/gitlab/gitlab-rails/sockets/gitlab.socket: connect: connection refused" method=GET uri=/help
+2018-08-08_05:53:29.79356 localhost:1180 @ - - [2018/08/08:05:53:29 +0000] "GET /help HTTP/1.1" 502 2916 "" "curl/7.56.1" 0.002
+2018-08-08_05:54:30.45727 localhost:1180 @ - - [2018/08/08:05:54:30 +0000] "GET /help HTTP/1.1" 200 36205 "" "curl/7.56.1" 0.597
+2018-08-08_05:55:30.73912 localhost:1180 @ - - [2018/08/08:05:55:30 +0000] "GET /help HTTP/1.1" 200 36205 "" "curl/7.56.1" 0.161
+2018-08-08_05:56:31.51468 localhost:1180 @ - - [2018/08/08:05:56:31 +0000] "GET /help HTTP/1.1" 200 36205 "" "curl/7.56.1" 0.710
+2018-08-08_05:57:31.89456 localhost:1180 @ - - [2018/08/08:05:57:31 +0000] "GET /help HTTP/1.1" 200 36205 "" "curl/7.56.1" 0.193

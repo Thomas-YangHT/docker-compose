@@ -1,0 +1,80 @@
+2018-08-08_08:58:48.46069 2018-08-08T08:58:48.456Z 547 TID-or3gmbtnk INFO: Booting Sidekiq 5.0.5 with redis options {:path=>"/var/opt/gitlab/redis/redis.socket", :namespace=>"resque:gitlab", :id=>"Sidekiq-server-PID-547", :url=>nil}
+2018-08-08_08:58:48.77461 2018-08-08T08:58:48.774Z 547 TID-or3gmbtnk INFO: Cron Jobs - add job with name: stuck_ci_jobs_worker
+2018-08-08_08:58:48.78688 2018-08-08T08:58:48.786Z 547 TID-or3gmbtnk INFO: Cron Jobs - add job with name: expire_build_artifacts_worker
+2018-08-08_08:58:48.79820 2018-08-08T08:58:48.798Z 547 TID-or3gmbtnk INFO: Cron Jobs - add job with name: pipeline_schedule_worker
+2018-08-08_08:58:48.80044 2018-08-08T08:58:48.800Z 547 TID-or3gmbtnk INFO: Cron Jobs - add job with name: repository_check_worker
+2018-08-08_08:58:48.81468 2018-08-08T08:58:48.814Z 547 TID-or3gmbtnk INFO: Cron Jobs - add job with name: admin_email_worker
+2018-08-08_08:58:48.81622 2018-08-08T08:58:48.816Z 547 TID-or3gmbtnk INFO: Cron Jobs - add job with name: repository_archive_cache_worker
+2018-08-08_08:58:48.82638 2018-08-08T08:58:48.826Z 547 TID-or3gmbtnk INFO: Cron Jobs - add job with name: pages_domain_verification_cron_worker
+2018-08-08_08:58:48.83231 2018-08-08T08:58:48.832Z 547 TID-or3gmbtnk INFO: Cron Jobs - add job with name: import_export_project_cleanup_worker
+2018-08-08_08:58:48.83923 2018-08-08T08:58:48.839Z 547 TID-or3gmbtnk INFO: Cron Jobs - add job with name: requests_profiles_worker
+2018-08-08_08:58:48.85021 2018-08-08T08:58:48.849Z 547 TID-or3gmbtnk INFO: Cron Jobs - add job with name: remove_expired_members_worker
+2018-08-08_08:58:48.85803 2018-08-08T08:58:48.857Z 547 TID-or3gmbtnk INFO: Cron Jobs - add job with name: remove_expired_group_links_worker
+2018-08-08_08:58:48.86506 2018-08-08T08:58:48.864Z 547 TID-or3gmbtnk INFO: Cron Jobs - add job with name: prune_old_events_worker
+2018-08-08_08:58:48.87128 2018-08-08T08:58:48.871Z 547 TID-or3gmbtnk INFO: Cron Jobs - add job with name: trending_projects_worker
+2018-08-08_08:58:48.88765 2018-08-08T08:58:48.887Z 547 TID-or3gmbtnk INFO: Cron Jobs - add job with name: remove_unreferenced_lfs_objects_worker
+2018-08-08_08:58:48.88986 2018-08-08T08:58:48.889Z 547 TID-or3gmbtnk INFO: Cron Jobs - add job with name: stuck_import_jobs_worker
+2018-08-08_08:58:48.90533 2018-08-08T08:58:48.905Z 547 TID-or3gmbtnk INFO: Cron Jobs - add job with name: gitlab_usage_ping_worker
+2018-08-08_08:58:48.91719 2018-08-08T08:58:48.917Z 547 TID-or3gmbtnk INFO: Cron Jobs - add job with name: schedule_update_user_activity_worker
+2018-08-08_08:58:48.92647 2018-08-08T08:58:48.926Z 547 TID-or3gmbtnk INFO: Cron Jobs - add job with name: remove_old_web_hook_logs_worker
+2018-08-08_08:58:48.93914 2018-08-08T08:58:48.938Z 547 TID-or3gmbtnk INFO: Cron Jobs - add job with name: stuck_merge_jobs_worker
+2018-08-08_08:58:51.03648 Invalid Timezone: CST-8
+2018-08-08_08:58:51.03650 /opt/gitlab/embedded/lib/ruby/gems/2.3.0/gems/activesupport-4.2.10/lib/active_support/core_ext/time/zones.rb:72:in `rescue in find_zone!'
+2018-08-08_08:58:51.03650 /opt/gitlab/embedded/lib/ruby/gems/2.3.0/gems/activesupport-4.2.10/lib/active_support/core_ext/time/zones.rb:55:in `find_zone!'
+2018-08-08_08:58:51.03651 /opt/gitlab/embedded/lib/ruby/gems/2.3.0/gems/activesupport-4.2.10/lib/active_support/core_ext/time/zones.rb:40:in `zone='
+2018-08-08_08:58:51.03651 /opt/gitlab/embedded/service/gitlab-rails/config/initializers/time_zone.rb:1:in `<top (required)>'
+2018-08-08_08:58:51.03651 /opt/gitlab/embedded/lib/ruby/gems/2.3.0/gems/activesupport-4.2.10/lib/active_support/dependencies.rb:268:in `load'
+2018-08-08_08:58:51.03651 /opt/gitlab/embedded/lib/ruby/gems/2.3.0/gems/activesupport-4.2.10/lib/active_support/dependencies.rb:268:in `block in load'
+2018-08-08_08:58:51.03652 /opt/gitlab/embedded/lib/ruby/gems/2.3.0/gems/activesupport-4.2.10/lib/active_support/dependencies.rb:240:in `load_dependency'
+2018-08-08_08:58:51.03652 /opt/gitlab/embedded/lib/ruby/gems/2.3.0/gems/activesupport-4.2.10/lib/active_support/dependencies.rb:268:in `load'
+2018-08-08_08:58:51.03652 /opt/gitlab/embedded/lib/ruby/gems/2.3.0/gems/railties-4.2.10/lib/rails/engine.rb:652:in `block in load_config_initializer'
+2018-08-08_08:58:51.03655 /opt/gitlab/embedded/lib/ruby/gems/2.3.0/gems/activesupport-4.2.10/lib/active_support/notifications.rb:166:in `instrument'
+2018-08-08_08:58:51.03655 /opt/gitlab/embedded/lib/ruby/gems/2.3.0/gems/railties-4.2.10/lib/rails/engine.rb:651:in `load_config_initializer'
+2018-08-08_08:58:51.03655 /opt/gitlab/embedded/lib/ruby/gems/2.3.0/gems/railties-4.2.10/lib/rails/engine.rb:616:in `block (2 levels) in <class:Engine>'
+2018-08-08_08:58:51.03656 /opt/gitlab/embedded/lib/ruby/gems/2.3.0/gems/railties-4.2.10/lib/rails/engine.rb:615:in `each'
+2018-08-08_08:58:51.03656 /opt/gitlab/embedded/lib/ruby/gems/2.3.0/gems/railties-4.2.10/lib/rails/engine.rb:615:in `block in <class:Engine>'
+2018-08-08_08:58:51.03656 /opt/gitlab/embedded/lib/ruby/gems/2.3.0/gems/railties-4.2.10/lib/rails/initializable.rb:30:in `instance_exec'
+2018-08-08_08:58:51.03656 /opt/gitlab/embedded/lib/ruby/gems/2.3.0/gems/railties-4.2.10/lib/rails/initializable.rb:30:in `run'
+2018-08-08_08:58:51.03657 /opt/gitlab/embedded/lib/ruby/gems/2.3.0/gems/railties-4.2.10/lib/rails/initializable.rb:55:in `block in run_initializers'
+2018-08-08_08:58:51.03657 /opt/gitlab/embedded/lib/ruby/2.3.0/tsort.rb:228:in `block in tsort_each'
+2018-08-08_08:58:51.03658 /opt/gitlab/embedded/lib/ruby/2.3.0/tsort.rb:350:in `block (2 levels) in each_strongly_connected_component'
+2018-08-08_08:58:51.03658 /opt/gitlab/embedded/lib/ruby/2.3.0/tsort.rb:422:in `block (2 levels) in each_strongly_connected_component_from'
+2018-08-08_08:58:51.03658 /opt/gitlab/embedded/lib/ruby/2.3.0/tsort.rb:431:in `each_strongly_connected_component_from'
+2018-08-08_08:58:51.03659 /opt/gitlab/embedded/lib/ruby/2.3.0/tsort.rb:421:in `block in each_strongly_connected_component_from'
+2018-08-08_08:58:51.03659 /opt/gitlab/embedded/lib/ruby/gems/2.3.0/gems/railties-4.2.10/lib/rails/initializable.rb:44:in `each'
+2018-08-08_08:58:51.03659 /opt/gitlab/embedded/lib/ruby/gems/2.3.0/gems/railties-4.2.10/lib/rails/initializable.rb:44:in `tsort_each_child'
+2018-08-08_08:58:51.03659 /opt/gitlab/embedded/lib/ruby/2.3.0/tsort.rb:415:in `call'
+2018-08-08_08:58:51.03659 /opt/gitlab/embedded/lib/ruby/2.3.0/tsort.rb:415:in `each_strongly_connected_component_from'
+2018-08-08_08:58:51.03660 /opt/gitlab/embedded/lib/ruby/2.3.0/tsort.rb:349:in `block in each_strongly_connected_component'
+2018-08-08_08:58:51.03660 /opt/gitlab/embedded/lib/ruby/2.3.0/tsort.rb:347:in `each'
+2018-08-08_08:58:51.03660 /opt/gitlab/embedded/lib/ruby/2.3.0/tsort.rb:347:in `call'
+2018-08-08_08:58:51.03661 /opt/gitlab/embedded/lib/ruby/2.3.0/tsort.rb:347:in `each_strongly_connected_component'
+2018-08-08_08:58:51.03661 /opt/gitlab/embedded/lib/ruby/2.3.0/tsort.rb:226:in `tsort_each'
+2018-08-08_08:58:51.03662 /opt/gitlab/embedded/lib/ruby/2.3.0/tsort.rb:205:in `tsort_each'
+2018-08-08_08:58:51.03662 /opt/gitlab/embedded/lib/ruby/gems/2.3.0/gems/railties-4.2.10/lib/rails/initializable.rb:54:in `run_initializers'
+2018-08-08_08:58:51.03662 /opt/gitlab/embedded/lib/ruby/gems/2.3.0/gems/railties-4.2.10/lib/rails/application.rb:352:in `initialize!'
+2018-08-08_08:58:51.03662 /opt/gitlab/embedded/service/gitlab-rails/config/environment.rb:11:in `<top (required)>'
+2018-08-08_08:58:51.03662 /opt/gitlab/embedded/lib/ruby/gems/2.3.0/gems/activesupport-4.2.10/lib/active_support/dependencies.rb:274:in `require'
+2018-08-08_08:58:51.03663 /opt/gitlab/embedded/lib/ruby/gems/2.3.0/gems/activesupport-4.2.10/lib/active_support/dependencies.rb:274:in `block in require'
+2018-08-08_08:58:51.03663 /opt/gitlab/embedded/lib/ruby/gems/2.3.0/gems/activesupport-4.2.10/lib/active_support/dependencies.rb:240:in `load_dependency'
+2018-08-08_08:58:51.03663 /opt/gitlab/embedded/lib/ruby/gems/2.3.0/gems/activesupport-4.2.10/lib/active_support/dependencies.rb:274:in `require'
+2018-08-08_08:58:51.03664 /opt/gitlab/embedded/lib/ruby/gems/2.3.0/gems/sidekiq-5.0.5/lib/sidekiq/cli.rb:254:in `boot_system'
+2018-08-08_08:58:51.03664 /opt/gitlab/embedded/lib/ruby/gems/2.3.0/gems/sidekiq-5.0.5/lib/sidekiq/cli.rb:54:in `run'
+2018-08-08_08:58:51.03665 /opt/gitlab/embedded/lib/ruby/gems/2.3.0/gems/sidekiq-5.0.5/bin/sidekiq:12:in `<top (required)>'
+2018-08-08_08:58:51.03665 /opt/gitlab/embedded/bin/sidekiq:23:in `load'
+2018-08-08_08:58:51.03665 /opt/gitlab/embedded/bin/sidekiq:23:in `<top (required)>'
+2018-08-08_08:58:51.03666 /opt/gitlab/embedded/lib/ruby/gems/2.3.0/gems/bundler-1.13.7/lib/bundler/cli/exec.rb:74:in `load'
+2018-08-08_08:58:51.03666 /opt/gitlab/embedded/lib/ruby/gems/2.3.0/gems/bundler-1.13.7/lib/bundler/cli/exec.rb:74:in `kernel_load'
+2018-08-08_08:58:51.03666 /opt/gitlab/embedded/lib/ruby/gems/2.3.0/gems/bundler-1.13.7/lib/bundler/cli/exec.rb:27:in `run'
+2018-08-08_08:58:51.03666 /opt/gitlab/embedded/lib/ruby/gems/2.3.0/gems/bundler-1.13.7/lib/bundler/cli.rb:332:in `exec'
+2018-08-08_08:58:51.03666 /opt/gitlab/embedded/lib/ruby/gems/2.3.0/gems/bundler-1.13.7/lib/bundler/vendor/thor/lib/thor/command.rb:27:in `run'
+2018-08-08_08:58:51.03667 /opt/gitlab/embedded/lib/ruby/gems/2.3.0/gems/bundler-1.13.7/lib/bundler/vendor/thor/lib/thor/invocation.rb:126:in `invoke_command'
+2018-08-08_08:58:51.03668 /opt/gitlab/embedded/lib/ruby/gems/2.3.0/gems/bundler-1.13.7/lib/bundler/vendor/thor/lib/thor.rb:359:in `dispatch'
+2018-08-08_08:58:51.03668 /opt/gitlab/embedded/lib/ruby/gems/2.3.0/gems/bundler-1.13.7/lib/bundler/cli.rb:20:in `dispatch'
+2018-08-08_08:58:51.03668 /opt/gitlab/embedded/lib/ruby/gems/2.3.0/gems/bundler-1.13.7/lib/bundler/vendor/thor/lib/thor/base.rb:440:in `start'
+2018-08-08_08:58:51.03669 /opt/gitlab/embedded/lib/ruby/gems/2.3.0/gems/bundler-1.13.7/lib/bundler/cli.rb:11:in `start'
+2018-08-08_08:58:51.03669 /opt/gitlab/embedded/lib/ruby/gems/2.3.0/gems/bundler-1.13.7/exe/bundle:34:in `block in <top (required)>'
+2018-08-08_08:58:51.03669 /opt/gitlab/embedded/lib/ruby/gems/2.3.0/gems/bundler-1.13.7/lib/bundler/friendly_errors.rb:100:in `with_friendly_errors'
+2018-08-08_08:58:51.03669 /opt/gitlab/embedded/lib/ruby/gems/2.3.0/gems/bundler-1.13.7/exe/bundle:26:in `<top (required)>'
+2018-08-08_08:58:51.03670 /opt/gitlab/embedded/bin/bundle:23:in `load'
+2018-08-08_08:58:51.03670 /opt/gitlab/embedded/bin/bundle:23:in `<main>'

@@ -1,0 +1,16 @@
+2018-08-08_07:26:27.93081 time="2018-08-08T07:26:27Z" level=info msg=Starting version="gitlab-workhorse v4.1.0-20180502.220512"
+2018-08-08_07:26:27.93092 time="2018-08-08T07:26:27Z" level=info msg="keywatcher: starting process loop"
+2018-08-08_07:26:27.93092 time="2018-08-08T07:26:27Z" level=info msg="redis: dialing" address=/var/opt/gitlab/redis/redis.socket network=unix
+2018-08-08_07:27:08.77999 time="2018-08-08T07:27:08Z" level=error msg=error error="badgateway: failed after 0s: dial unix /var/opt/gitlab/gitlab-rails/sockets/gitlab.socket: connect: connection refused" method=GET uri=/help
+2018-08-08_07:27:08.78001 localhost:1180 @ - - [2018/08/08:07:27:08 +0000] "GET /help HTTP/1.1" 502 2916 "" "curl/7.56.1" 0.001
+2018-08-08_07:28:09.31399 localhost:1180 @ - - [2018/08/08:07:28:09 +0000] "GET /help HTTP/1.1" 200 36205 "" "curl/7.56.1" 0.469
+2018-08-08_07:29:09.55738 localhost:1180 @ - - [2018/08/08:07:29:09 +0000] "GET /help HTTP/1.1" 200 36205 "" "curl/7.56.1" 0.174
+2018-08-08_07:30:10.29930 localhost:1180 @ - - [2018/08/08:07:30:10 +0000] "GET /help HTTP/1.1" 200 36205 "" "curl/7.56.1" 0.674
+2018-08-08_07:31:10.51537 localhost:1180 @ - - [2018/08/08:07:31:10 +0000] "GET /help HTTP/1.1" 200 36205 "" "curl/7.56.1" 0.149
+2018-08-08_07:32:10.86044 localhost:1180 @ - - [2018/08/08:07:32:10 +0000] "GET /help HTTP/1.1" 200 36205 "" "curl/7.56.1" 0.268
+2018-08-08_07:33:11.10640 localhost:1180 @ - - [2018/08/08:07:33:11 +0000] "GET /help HTTP/1.1" 200 36205 "" "curl/7.56.1" 0.161
+2018-08-08_07:34:11.34046 localhost:1180 @ - - [2018/08/08:07:34:11 +0000] "GET /help HTTP/1.1" 200 36205 "" "curl/7.56.1" 0.161
+2018-08-08_07:35:11.64114 localhost:1180 @ - - [2018/08/08:07:35:11 +0000] "GET /help HTTP/1.1" 200 36205 "" "curl/7.56.1" 0.231
+2018-08-08_07:36:11.90044 localhost:1180 @ - - [2018/08/08:07:36:11 +0000] "GET /help HTTP/1.1" 200 36205 "" "curl/7.56.1" 0.186
+2018-08-08_07:37:12.17347 localhost:1180 @ - - [2018/08/08:07:37:12 +0000] "GET /help HTTP/1.1" 200 36205 "" "curl/7.56.1" 0.163
+2018-08-08_07:38:12.38676 localhost:1180 @ - - [2018/08/08:07:38:12 +0000] "GET /help HTTP/1.1" 200 36205 "" "curl/7.56.1" 0.145

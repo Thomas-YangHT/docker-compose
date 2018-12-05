@@ -1,0 +1,58 @@
+#============================================================================
+filebeat.modules:
+- module: nginx
+  access:
+    enabled: true
+    var.paths: ["/var/log/nginx/*access.log"]
+    prospector:
+      enabled: true
+  error:
+    enabled: true
+    var.paths: ["/var/log/nginx/*error.log"]
+    prospector:
+- module: system
+  syslog:
+    enabled: true
+    var.paths: ["/var/log/messages*"]
+    prospector:
+       enabled: true
+#============================================================================
+filebeat.prospectors:
+- type: log
+  enabled: true
+  paths:
+    - /var/log/nginx/*access.log
+  tags: ["nginx-access"]
+#  document_type: nginx-access
+
+
+- type: log
+  enabled: true
+  paths:
+    - /var/log/nginx/*error.log
+  tags: ["nginx-error"]
+#  document_type: nginx-error
+
+- type: log
+  enabled: true
+  paths:
+    - /var/log/messages
+  tags: ["syslog"]
+#  document_type: syslog
+#============================= Filebeat modules ===============================
+filebeat.config.modules:
+  path: /modules.d/*.yml
+  # Set to true to enable config reloading
+  reload.enabled: true
+  reload.period: 10s
+#filebeat.modules:
+#- module: nginx
+#- module: mysql
+#- module: system
+#----------------------------- Logstash output --------------------------------
+output.logstash:
+  hosts: ["elk.yunwei.edu:5044"]
+  #ssl.certificate_authorities: ["/etc/pki/root/ca.pem"]
+  #ssl.certificate: "/etc/pki/client/cert.pem"
+  #ssl.key: "/etc/pki/client/cert.key"
+

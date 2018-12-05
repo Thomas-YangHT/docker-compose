@@ -1,0 +1,17 @@
+nfs4:
+  image: itsthenetwork/nfs-server-alpine
+
+  # Required to load kernel NFS module
+  privileged: true
+
+  environment:
+    - SHARED_DIRECTORY=/nfsshare
+    #- READ_ONLY=true
+  volumes:
+    - ./exports:/etc/exports
+    - /log:/nfsshare
+
+  ports:
+    - "2049:2049/tcp"
+    - "2049:2049/udp"
+  restart: always

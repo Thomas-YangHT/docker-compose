@@ -1,0 +1,30 @@
+elasticsearch:
+    image: docker.io/elasticsearch
+    ports:
+      - "9200:9200"
+  #    - "9300:9300"
+    volumes:
+      - ./esdata:/usr/share/elasticsearch/data
+    environment:
+      - TZ=Asia/Shanghai
+      - http.host=0.0.0.0
+      - transport.host=127.0.0.1
+    #  - discovery.zen.minimum_master_nodes=1
+kibana:
+    image: docker.io/kibana
+    ports:
+      - "5601:5601"
+    environment:
+      - TZ=Asia/Shanghai
+      - ELASTICSEARCH_URL=http://192.168.100.224:9200
+   # net: host
+logstash:
+    image: docker.io/logstash
+    ports:
+      - "5044:5044"
+    volumes:
+      - ./logstash.conf:/etc/logstash.conf:ro
+    environment:
+      - TZ=Asia/Shanghai
+   # net: host
+    command: logstash -f /etc/logstash.conf

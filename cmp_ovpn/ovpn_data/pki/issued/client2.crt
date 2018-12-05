@@ -1,0 +1,84 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number:
+            78:c2:79:1b:ea:9f:e2:68:af:14:26:ac:76:ac:9a:b1
+    Signature Algorithm: sha256WithRSAEncryption
+        Issuer: CN=yunwei.edu
+        Validity
+            Not Before: Apr 18 15:25:13 2018 GMT
+            Not After : Apr 15 15:25:13 2028 GMT
+        Subject: CN=client2
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (2048 bit)
+                Modulus:
+                    00:d7:40:c0:ae:f1:48:8f:b8:1f:d5:75:10:5d:40:
+                    bc:7d:b9:9e:b1:bb:3d:73:3e:44:04:b8:55:d2:09:
+                    35:99:99:6e:31:7d:84:42:fe:a6:af:05:63:be:14:
+                    38:cb:e0:ce:40:df:40:2c:d7:8c:b8:f5:e0:02:1e:
+                    a0:1c:53:a1:8d:f1:41:ce:97:3a:1c:ff:5c:dd:0b:
+                    2d:4d:f8:55:95:46:41:0b:f8:4f:f6:48:60:95:b5:
+                    21:78:6b:8d:10:18:9d:53:3e:5d:fc:f0:70:61:34:
+                    60:92:b5:ce:45:ff:b0:45:ae:6a:7d:26:fa:81:5b:
+                    0f:04:b6:05:39:84:2a:3f:6a:82:8a:f1:74:76:0a:
+                    de:c8:9a:13:87:45:1c:83:26:05:04:8f:cd:0a:5d:
+                    37:c2:08:14:eb:a9:b4:23:4b:c1:db:ae:40:b7:eb:
+                    1a:97:ec:a9:c2:52:a4:0f:86:1f:a9:0a:81:f1:a0:
+                    53:28:70:3c:30:93:d0:2b:47:51:6e:5d:6d:a2:51:
+                    9d:47:c9:1d:8f:ee:07:7f:27:f1:1c:a2:17:3a:18:
+                    fb:bd:a7:9a:6e:64:87:72:33:af:f3:38:13:0d:5b:
+                    01:ad:70:cf:10:b0:8e:3c:e0:28:5b:90:18:4b:bc:
+                    04:44:d4:9a:8d:68:66:98:d1:1d:e4:5e:34:a1:5d:
+                    1c:91
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Basic Constraints: 
+                CA:FALSE
+            X509v3 Subject Key Identifier: 
+                D2:7A:AB:A3:33:BB:4B:95:25:E1:FD:37:2D:4C:9C:34:5A:7C:0D:99
+            X509v3 Authority Key Identifier: 
+                keyid:4D:DD:94:91:28:D4:9B:EF:D3:AF:FA:C1:35:ED:78:67:29:BB:2B:2C
+                DirName:/CN=yunwei.edu
+                serial:E2:01:5B:DF:DF:76:93:07
+
+            X509v3 Extended Key Usage: 
+                TLS Web Client Authentication
+            X509v3 Key Usage: 
+                Digital Signature
+    Signature Algorithm: sha256WithRSAEncryption
+         5d:4e:9a:d1:be:00:7c:78:48:a3:ce:7b:7a:3b:40:b4:23:ac:
+         3d:ea:91:40:3b:ad:ba:7a:cd:c2:0c:ab:6a:f1:10:89:94:80:
+         6c:63:3a:fb:0e:a2:1c:2c:41:29:ca:c3:cf:52:6d:8f:f1:fd:
+         53:d0:35:ae:1f:a9:df:10:33:92:c8:52:19:d5:51:54:d1:0d:
+         32:55:d0:71:09:74:36:7e:ab:ae:a2:1e:fc:7b:79:0a:08:b2:
+         a3:6d:a8:3b:a8:38:5c:85:d7:d6:89:3e:0c:77:23:5f:3f:82:
+         ef:c5:0f:a9:42:2c:aa:36:b8:60:24:b6:64:d9:b0:e9:e0:f7:
+         99:08:c2:60:c6:1e:4f:2a:5f:82:84:8d:8a:ad:70:c9:2d:3f:
+         ed:ec:85:0a:45:db:3c:96:d6:97:7a:90:51:af:a0:d6:8c:4e:
+         b7:8a:f4:b3:69:32:1f:23:64:a5:2b:c0:f0:f3:36:d6:f1:00:
+         80:00:fc:cf:c0:6f:f9:d7:dc:d5:84:42:8b:81:1b:88:d3:21:
+         e3:d7:d2:6b:46:6d:c1:73:e6:62:f0:05:d3:71:21:0e:e8:5a:
+         56:a7:0a:6d:18:d7:d1:1a:58:16:e3:1b:44:5d:c8:59:df:24:
+         0f:6a:a3:41:e1:a2:3b:c7:57:59:7a:6c:27:e6:c5:b8:20:64:
+         94:d8:f2:08
+-----BEGIN CERTIFICATE-----
+MIIDSDCCAjCgAwIBAgIQeMJ5G+qf4mivFCasdqyasTANBgkqhkiG9w0BAQsFADAV
+MRMwEQYDVQQDDAp5dW53ZWkuZWR1MB4XDTE4MDQxODE1MjUxM1oXDTI4MDQxNTE1
+MjUxM1owEjEQMA4GA1UEAwwHY2xpZW50MjCCASIwDQYJKoZIhvcNAQEBBQADggEP
+ADCCAQoCggEBANdAwK7xSI+4H9V1EF1AvH25nrG7PXM+RAS4VdIJNZmZbjF9hEL+
+pq8FY74UOMvgzkDfQCzXjLj14AIeoBxToY3xQc6XOhz/XN0LLU34VZVGQQv4T/ZI
+YJW1IXhrjRAYnVM+XfzwcGE0YJK1zkX/sEWuan0m+oFbDwS2BTmEKj9qgorxdHYK
+3siaE4dFHIMmBQSPzQpdN8IIFOuptCNLwduuQLfrGpfsqcJSpA+GH6kKgfGgUyhw
+PDCT0CtHUW5dbaJRnUfJHY/uB38n8RyiFzoY+72nmm5kh3Izr/M4Ew1bAa1wzxCw
+jjzgKFuQGEu8BETUmo1oZpjRHeReNKFdHJECAwEAAaOBljCBkzAJBgNVHRMEAjAA
+MB0GA1UdDgQWBBTSequjM7tLlSXh/TctTJw0WnwNmTBFBgNVHSMEPjA8gBRN3ZSR
+KNSb79Ov+sE17XhnKbsrLKEZpBcwFTETMBEGA1UEAwwKeXVud2VpLmVkdYIJAOIB
+W9/fdpMHMBMGA1UdJQQMMAoGCCsGAQUFBwMCMAsGA1UdDwQEAwIHgDANBgkqhkiG
+9w0BAQsFAAOCAQEAXU6a0b4AfHhIo857ejtAtCOsPeqRQDutunrNwgyravEQiZSA
+bGM6+w6iHCxBKcrDz1Jtj/H9U9A1rh+p3xAzkshSGdVRVNENMlXQcQl0Nn6rrqIe
+/Ht5Cgiyo22oO6g4XIXX1ok+DHcjXz+C78UPqUIsqja4YCS2ZNmw6eD3mQjCYMYe
+TypfgoSNiq1wyS0/7eyFCkXbPJbWl3qQUa+g1oxOt4r0s2kyHyNkpSvA8PM21vEA
+gAD8z8Bv+dfc1YRCi4EbiNMh49fSa0ZtwXPmYvAF03EhDuhaVqcKbRjX0RpYFuMb
+RF3IWd8kD2qjQeGiO8dXWXpsJ+bFuCBklNjyCA==
+-----END CERTIFICATE-----

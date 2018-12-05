@@ -1,0 +1,8 @@
+openvpn:
+   image: kylemanna/openvpn
+   privileged: true
+   ports:
+      - "1194:1194/tcp"
+   volumes:
+      - ./ovpn_data:/etc/openvpn
+   restart: always

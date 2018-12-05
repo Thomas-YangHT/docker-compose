@@ -1,0 +1,42 @@
+2018-08-08_10:18:53.46736 starting new unicorn master
+2018-08-08_10:18:57.60878 master failed to start, check stderr log for details
+2018-08-08_10:18:58.68456 failed to start a new unicorn master
+2018-08-08_10:18:58.86251 starting new unicorn master
+2018-08-08_10:19:39.94381 master failed to start, check stderr log for details
+2018-08-08_10:19:41.00266 failed to start a new unicorn master
+2018-08-08_10:19:41.15556 starting new unicorn master
+2018-08-08_10:20:17.01257 master failed to start, check stderr log for details
+2018-08-08_10:20:18.06259 failed to start a new unicorn master
+2018-08-08_10:20:18.17837 starting new unicorn master
+2018-08-08_10:20:54.76418 master failed to start, check stderr log for details
+2018-08-08_10:20:55.79101 failed to start a new unicorn master
+2018-08-08_10:20:55.90133 starting new unicorn master
+2018-08-08_10:21:31.68611 master failed to start, check stderr log for details
+2018-08-08_10:21:32.72155 failed to start a new unicorn master
+2018-08-08_10:21:32.82858 starting new unicorn master
+2018-08-08_10:22:08.51901 master failed to start, check stderr log for details
+2018-08-08_10:22:09.56058 failed to start a new unicorn master
+2018-08-08_10:22:09.66922 starting new unicorn master
+2018-08-08_10:22:46.72453 master failed to start, check stderr log for details
+2018-08-08_10:22:47.75947 failed to start a new unicorn master
+2018-08-08_10:22:47.85443 starting new unicorn master
+2018-08-08_10:23:23.27876 master failed to start, check stderr log for details
+2018-08-08_10:23:24.31477 failed to start a new unicorn master
+2018-08-08_10:23:24.38860 starting new unicorn master
+2018-08-08_10:23:59.99553 master failed to start, check stderr log for details
+2018-08-08_10:24:01.02987 failed to start a new unicorn master
+2018-08-08_10:24:01.13538 starting new unicorn master
+2018-08-08_10:24:38.07122 master failed to start, check stderr log for details
+2018-08-08_10:24:39.10544 failed to start a new unicorn master
+2018-08-08_10:24:39.20838 starting new unicorn master
+2018-08-08_10:25:16.45176 master failed to start, check stderr log for details
+2018-08-08_10:25:17.50941 failed to start a new unicorn master
+2018-08-08_10:25:17.68550 starting new unicorn master
+2018-08-08_10:25:50.55171 Received TERM from runit, sending to process group (-PID)
+2018-08-08_10:25:50.56878 bundler: failed to load command: unicorn (/opt/gitlab/embedded/bin/unicorn)
+2018-08-08_10:25:50.56879 SignalException: SIGTERM
+2018-08-08_10:25:50.56879   /opt/gitlab/embedded/lib/ruby/gems/2.3.0/gems/unicorn-5.1.0/lib/unicorn/launcher.rb:46:in `readpartial'
+2018-08-08_10:25:50.56880   /opt/gitlab/embedded/lib/ruby/gems/2.3.0/gems/unicorn-5.1.0/lib/unicorn/launcher.rb:46:in `daemonize!'
+2018-08-08_10:25:50.56880   /opt/gitlab/embedded/lib/ruby/gems/2.3.0/gems/unicorn-5.1.0/bin/unicorn:125:in `<top (required)>'
+2018-08-08_10:25:50.56880   /opt/gitlab/embedded/bin/unicorn:23:in `load'
+2018-08-08_10:25:50.56880   /opt/gitlab/embedded/bin/unicorn:23:in `<top (required)>'

@@ -1,0 +1,11 @@
+sendmail:
+    build: ./
+    #image: ubuntu.sendmail
+    volumes:
+        - ./sendmail.cf:/etc/mail/sendmail.cf
+        - ./access.db:/etc/mail/access.db
+    ports:
+        - "25:25"
+    dns:
+        - 172.17.0.1
+        - 192.168.254.251

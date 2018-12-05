@@ -1,0 +1,23 @@
+registry-srv:
+    image: registry 
+    ports:
+        - "5000:5000"
+    volumes:
+        - /mnt/registry:/var/lib/registry 
+        - ./config-srv.yml:/etc/docker/registry/config.yml
+    environment:
+        - TZ=Asia/Shanghai
+    dns: 
+        - 192.168.100.222
+    restart: always
+registry-web:
+    image: hyper/docker-registry-web
+    ports:
+        - "5001:8080"
+    volumes:
+        - ./config-web.yml:/conf/config.yml:ro 
+#    environment:
+#        - REGISTRY_BASIC_AUTH="YWRtOjEyMzEyMwo="   #echo adm:123123|base64
+    links:
+        - registry-srv 
+    restart: always

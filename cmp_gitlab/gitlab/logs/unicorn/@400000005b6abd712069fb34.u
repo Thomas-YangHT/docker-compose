@@ -1,0 +1,12 @@
+2018-08-08_09:41:24.50657 starting new unicorn master
+2018-08-08_09:42:07.85032 master failed to start, check stderr log for details
+2018-08-08_09:42:08.88502 failed to start a new unicorn master
+2018-08-08_09:42:08.98985 starting new unicorn master
+2018-08-08_09:42:39.26808 Received TERM from runit, sending to process group (-PID)
+2018-08-08_09:42:39.29038 bundler: failed to load command: unicorn (/opt/gitlab/embedded/bin/unicorn)
+2018-08-08_09:42:39.29039 SignalException: SIGTERM
+2018-08-08_09:42:39.29039   /opt/gitlab/embedded/lib/ruby/gems/2.3.0/gems/unicorn-5.1.0/lib/unicorn/launcher.rb:46:in `readpartial'
+2018-08-08_09:42:39.29040   /opt/gitlab/embedded/lib/ruby/gems/2.3.0/gems/unicorn-5.1.0/lib/unicorn/launcher.rb:46:in `daemonize!'
+2018-08-08_09:42:39.29040   /opt/gitlab/embedded/lib/ruby/gems/2.3.0/gems/unicorn-5.1.0/bin/unicorn:125:in `<top (required)>'
+2018-08-08_09:42:39.29040   /opt/gitlab/embedded/bin/unicorn:23:in `load'
+2018-08-08_09:42:39.29040   /opt/gitlab/embedded/bin/unicorn:23:in `<top (required)>'

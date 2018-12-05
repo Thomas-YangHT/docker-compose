@@ -1,0 +1,41 @@
+2018-08-08_09:54:32.74266                 _._                                                  
+2018-08-08_09:54:32.74273            _.-``__ ''-._                                             
+2018-08-08_09:54:32.74273       _.-``    `.  `_.  ''-._           Redis 3.2.11 (00000000/0) 64 bit
+2018-08-08_09:54:32.74273   .-`` .-```.  ```\/    _.,_ ''-._                                   
+2018-08-08_09:54:32.74273  (    '      ,       .-`  | `,    )     Running in standalone mode
+2018-08-08_09:54:32.74274  |`-._`-...-` __...-.``-._|'` _.-'|     Port: 0
+2018-08-08_09:54:32.74274  |    `-._   `._    /     _.-'    |     PID: 493
+2018-08-08_09:54:32.74274   `-._    `-._  `-./  _.-'    _.-'                                   
+2018-08-08_09:54:32.74274  |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+2018-08-08_09:54:32.74275  |    `-._`-._        _.-'_.-'    |           http://redis.io        
+2018-08-08_09:54:32.74275   `-._    `-._`-.__.-'_.-'    _.-'                                   
+2018-08-08_09:54:32.74275  |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+2018-08-08_09:54:32.74275  |    `-._`-._        _.-'_.-'    |                                  
+2018-08-08_09:54:32.74275   `-._    `-._`-.__.-'_.-'    _.-'                                   
+2018-08-08_09:54:32.74276       `-._    `-.__.-'    _.-'                                       
+2018-08-08_09:54:32.74276           `-._        _.-'                                           
+2018-08-08_09:54:32.74277               `-.__.-'                                               
+2018-08-08_09:54:32.74277 
+2018-08-08_09:54:32.74277 493:M 08 Aug 09:54:32.742 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+2018-08-08_09:54:32.74278 493:M 08 Aug 09:54:32.742 # Server started, Redis version 3.2.11
+2018-08-08_09:54:32.74278 493:M 08 Aug 09:54:32.742 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+2018-08-08_09:54:32.74278 493:M 08 Aug 09:54:32.742 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+2018-08-08_09:54:32.75590 493:M 08 Aug 09:54:32.755 * DB loaded from disk: 0.013 seconds
+2018-08-08_09:54:32.75591 493:M 08 Aug 09:54:32.755 * The server is now ready to accept connections at /var/opt/gitlab/redis/redis.socket
+2018-08-08_09:59:33.00561 493:M 08 Aug 09:59:33.000 * 10 changes in 300 seconds. Saving...
+2018-08-08_09:59:33.00564 493:M 08 Aug 09:59:33.003 * Background saving started by pid 1883
+2018-08-08_09:59:33.06313 1883:C 08 Aug 09:59:33.062 * DB saved on disk
+2018-08-08_09:59:33.06315 1883:C 08 Aug 09:59:33.062 * RDB: 6 MB of memory used by copy-on-write
+2018-08-08_09:59:33.10418 493:M 08 Aug 09:59:33.104 * Background saving terminated with success
+2018-08-08_10:04:34.10474 493:M 08 Aug 10:04:34.099 * 10 changes in 300 seconds. Saving...
+2018-08-08_10:04:34.10476 493:M 08 Aug 10:04:34.102 * Background saving started by pid 3191
+2018-08-08_10:04:34.15385 3191:C 08 Aug 10:04:34.153 * DB saved on disk
+2018-08-08_10:04:34.15386 3191:C 08 Aug 10:04:34.153 * RDB: 6 MB of memory used by copy-on-write
+2018-08-08_10:04:34.20905 493:M 08 Aug 10:04:34.208 * Background saving terminated with success
+2018-08-08_10:08:52.59983 493:signal-handler (1533722932) Received SIGTERM scheduling shutdown...
+2018-08-08_10:08:52.60812 493:M 08 Aug 10:08:52.607 # User requested shutdown...
+2018-08-08_10:08:52.60812 493:M 08 Aug 10:08:52.608 * Saving the final RDB snapshot before exiting.
+2018-08-08_10:08:52.62632 493:M 08 Aug 10:08:52.626 * DB saved on disk
+2018-08-08_10:08:52.62633 493:M 08 Aug 10:08:52.626 * Removing the pid file.
+2018-08-08_10:08:52.62634 493:M 08 Aug 10:08:52.626 * Removing the unix socket file.
+2018-08-08_10:08:52.62716 493:M 08 Aug 10:08:52.627 # Redis is now ready to exit, bye bye...

@@ -1,0 +1,34 @@
+nginx:
+    image: index.alauda.cn/library/nginx
+    links:
+        - phpfpm
+    ports:
+        - "80:80"
+        - "443:443"
+    volumes:
+        - /Users/chenishr/www:/usr/share/nginx/html
+        - ./nginx.conf:/etc/nginx/nginx.conf
+        - ./nginx.d:/etc/nginx/conf.d
+
+mysql:
+    image: index.alauda.cn/library/mysql
+    environment:
+        MYSQL_ROOT_PASSWORD: qazasdedc123
+    ports:
+        - "3306:3306"
+
+phpfpm:
+    image: index.alauda.cn/library/php:7.0-fpm
+    links:
+        - mysql
+    volumes:
+        - /Users/chenishr/www:/var/www/html
+    ports:
+        - "9000:9000"
+
+#上面的文件内容很简单，它定义了三个容器，分别是 nginx、mysql 和 phpfpm 。每个容器定义里包含了一些信息，这里简单介绍一下。
+#image：这个字段表示该容器是基于那个镜像来创建的
+#links：表示在该容器内部需要访问那个其它的容器，该名字在容器内部的表现类似于域名，它会绑 定对应容器的 IP
+#ports：将容器内部的端口映射到宿主机器中
+#volumes：配置容器与宿主机器的共享文件或者目录
+

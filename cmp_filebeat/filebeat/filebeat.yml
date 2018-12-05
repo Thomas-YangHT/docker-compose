@@ -1,0 +1,36 @@
+filebeat.config:
+  prospectors:
+    path: ${path.config}/prospectors.d/*.yml
+    reload.enabled: false
+  modules:
+    path: ${path.config}/modules.d/*.yml
+    reload.enabled: false
+
+filebeat.modules:
+- module: nginx
+  access:
+    enabled: true
+    var.paths: ["/var/log/nginx/*access.log"]
+    prospector:
+
+  error:
+    enabled: true
+    var.paths: ["/var/log/nginx/*error.log"]
+    prospector:
+
+- module: system
+  syslog:
+    enabled: true
+    var.paths: ["/var/log/messages*"]
+    prospector:
+
+processors:
+- add_cloud_metadata:
+
+#output.elasticsearch:
+#  hosts: ['elasticsearch:9200']
+#  username: elastic
+#  password: changeme
+output.logstash:
+  hosts: ["elk.yunwei.edu:5044"]
+

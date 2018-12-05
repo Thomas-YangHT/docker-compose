@@ -1,0 +1,15 @@
+keepalived:
+    image: 192.168.254.211:5000/99cloud/centos-source-keepalived:4.0.2.1
+
+    # Required to load kernel NFS module
+    net: host
+    privileged: true
+
+    #environment:
+    volumes:
+     - ./keepalived.conf:/etc/keepalived/keepalived.conf 
+     - ./keep.sh:/etc/keepalived/keep.sh 
+     - ./chk_nfs.sh:/etc/keepalived/chk_nfs.sh 
+
+    restart: always
+    command:  bash /etc/keepalived/keep.sh

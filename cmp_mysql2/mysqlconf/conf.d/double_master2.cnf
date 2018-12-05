@@ -1,0 +1,14 @@
+[mysqld]
+server-id        = 2
+log_bin         = /var/log/mysql/mariadb-bin
+log_bin_index      = /var/log/mysql/mariadb-bin.index
+binlog-do-db        = cmdb #需要同步的数据库,这里同步tudou1和tudou2两个数据库
+binlog-do-db        = moninfo
+binlog-do-db        = monitor
+binlog-do-db        = docker
+binlog-do-db        = zabbix
+binlog-ignore-db     = mysql #忽略同步的数据库
+log_slave_updates               #把从库的写操作记录到binlog中 （缺少之后，双主创建失败）
+expire_logs_days  = 365         #日志文件过期天数，默认是 0，表示不过期
+auto_increment_increment= 2       #设定为主服务器的数量，防止auto_increment字段重复
+auto_increment_offset  = 2       #自增长字段的初始值，在多台master环境下，不会出现自增长ID重复

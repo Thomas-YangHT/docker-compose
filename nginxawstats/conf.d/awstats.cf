@@ -1,0 +1,42 @@
+	# Restrict access
+	#auth_basic "Restricted";
+	#auth_basic_user_file /etc/awstats/htpasswd;
+
+
+	# Static awstats files: HTML files stored in DOCUMENT_ROOT/awstats/
+	location /classes/ {
+		alias /usr/share/awstats/wwwroot/classes/;
+	}
+
+	location /css/ {
+		alias /usr/share/awstats/wwwroot/css/;
+	}
+
+	location /icon/ {
+		alias /usr/share/awstats/wwwroot/icon/;
+	}
+
+	location /awstatsicons/ {
+        	alias /usr/share/awstats/wwwroot/icon/;
+    	}
+
+	location /awstats-icon/ {
+        	alias /usr/share/awstats/wwwroot/icon/;
+    	}
+
+	location /js/ {
+		alias /usr/share/awstats/wwwroot/js/;
+	}
+
+	# Dynamic stats.
+	location ~ ^/(awredir|awstats)\.pl {
+	#location ~ \.pl$ {
+		gzip off;
+		fastcgi_pass 127.0.0.1:8999;
+	#	fastcgi_param SCRIPT_FILENAME /usr/share/awstats/wwwroot/cgi-bin/fcgi.php;
+		fastcgi_param SCRIPT_FILENAME /usr/share/awstats/wwwroot/cgi-bin$fastcgi_script_name;
+	#	fastcgi_param X_SCRIPT_FILENAME /usr/share/awstats/wwwroot/cgi-bin$fastcgi_script_name;
+	#	fastcgi_param X_SCRIPT_NAME $fastcgi_script_name;
+		include fastcgi_params;
+	}
+	

@@ -1,0 +1,15 @@
+mysql:
+    image: 192.168.254.211:5000/mariadb
+    ports:
+        - "3306:3306"
+    volumes:
+        - ./mysql:/var/lib/mysql
+        - ./mysqlconf:/etc/mysql
+        - ./mysql_binlog:/var/log/mysql
+    environment:
+        - MYSQL_ROOT_PASSWORD=123321
+        - TZ=Asia/Shanghai
+    dns: 
+        - 192.168.254.251
+        - 192.168.254.253
+    restart: always

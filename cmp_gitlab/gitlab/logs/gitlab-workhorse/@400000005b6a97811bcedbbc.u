@@ -1,0 +1,16 @@
+2018-08-08_06:58:14.81308 time="2018-08-08T06:58:14Z" level=info msg=Starting version="gitlab-workhorse v4.1.0-20180502.220512"
+2018-08-08_06:58:14.81319 time="2018-08-08T06:58:14Z" level=fatal msg="Can not load config file" configFile=config.toml error="open config.toml: no such file or directory"
+2018-08-08_06:58:16.02679 time="2018-08-08T06:58:16Z" level=info msg=Starting version="gitlab-workhorse v4.1.0-20180502.220512"
+2018-08-08_06:58:16.02680 time="2018-08-08T06:58:16Z" level=info msg="keywatcher: starting process loop"
+2018-08-08_06:58:16.02681 time="2018-08-08T06:58:16Z" level=info msg="redis: dialing" address=/var/opt/gitlab/redis/redis.socket network=unix
+2018-08-08_06:58:45.65244 time="2018-08-08T06:58:45Z" level=error msg=error error="badgateway: failed after 0s: dial unix /var/opt/gitlab/gitlab-rails/sockets/gitlab.socket: connect: no such file or directory" method=GET uri=/help
+2018-08-08_06:58:45.65246 localhost:1180 @ - - [2018/08/08:06:58:45 +0000] "GET /help HTTP/1.1" 502 2916 "" "curl/7.56.1" 0.001
+2018-08-08_06:59:46.86400 localhost:1180 @ - - [2018/08/08:06:59:46 +0000] "GET /help HTTP/1.1" 200 36205 "" "curl/7.56.1" 1.091
+2018-08-08_06:59:48.61376 time="2018-08-08T06:59:48Z" level=info msg=Starting version="gitlab-workhorse v4.1.0-20180502.220512"
+2018-08-08_06:59:48.61378 time="2018-08-08T06:59:48Z" level=info msg="keywatcher: starting process loop"
+2018-08-08_06:59:48.61378 time="2018-08-08T06:59:48Z" level=info msg="redis: dialing" address=/var/opt/gitlab/redis/redis.socket network=unix
+2018-08-08_07:00:47.15979 localhost:1180 @ - - [2018/08/08:07:00:47 +0000] "GET /help HTTP/1.1" 200 36205 "" "curl/7.56.1" 0.193
+2018-08-08_07:01:47.85995 localhost:1180 @ - - [2018/08/08:07:01:47 +0000] "GET /help HTTP/1.1" 200 36205 "" "curl/7.56.1" 0.632
+2018-08-08_07:02:48.10301 localhost:1180 @ - - [2018/08/08:07:02:48 +0000] "GET /help HTTP/1.1" 200 36205 "" "curl/7.56.1" 0.153
+2018-08-08_07:03:48.40884 localhost:1180 @ - - [2018/08/08:07:03:48 +0000] "GET /help HTTP/1.1" 200 36205 "" "curl/7.56.1" 0.226
+2018-08-08_07:04:49.06561 localhost:1180 @ - - [2018/08/08:07:04:49 +0000] "GET /help HTTP/1.1" 200 36205 "" "curl/7.56.1" 0.563

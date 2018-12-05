@@ -1,0 +1,17 @@
+=============== Aug 8, 2018 (UTC) ===============
+06:59:03.548301 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+06:59:03.548788 db@open opening
+06:59:03.570470 version@stat F·[] S·0B[] Sc·[]
+06:59:03.578956 db@janitor F·2 G·0
+06:59:03.578985 db@open done T·30.183323ms
+06:59:50.283086 db@close closing
+06:59:50.283127 db@close done T·40.464µs
+=============== Aug 8, 2018 (UTC) ===============
+06:59:50.820193 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+06:59:50.820591 version@stat F·[] S·0B[] Sc·[]
+06:59:50.820610 db@open opening
+06:59:50.820687 journal@recovery F·1
+06:59:50.870794 journal@recovery recovering @1
+06:59:50.874496 version@stat F·[] S·0B[] Sc·[]
+06:59:50.875008 db@janitor F·2 G·0
+06:59:50.875032 db@open done T·54.411057ms

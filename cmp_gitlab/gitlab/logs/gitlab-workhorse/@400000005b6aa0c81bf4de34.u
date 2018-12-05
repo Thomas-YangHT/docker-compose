@@ -1,0 +1,15 @@
+2018-08-08_07:38:40.77997 time="2018-08-08T07:38:40Z" level=info msg=Starting version="gitlab-workhorse v4.1.0-20180502.220512"
+2018-08-08_07:38:40.78005 time="2018-08-08T07:38:40Z" level=info msg="keywatcher: starting process loop"
+2018-08-08_07:38:40.78006 time="2018-08-08T07:38:40Z" level=info msg="redis: dialing" address=/var/opt/gitlab/redis/redis.socket network=unix
+2018-08-08_07:39:20.54728 time="2018-08-08T07:39:20Z" level=error msg=error error="badgateway: failed after 0s: dial unix /var/opt/gitlab/gitlab-rails/sockets/gitlab.socket: connect: connection refused" method=GET uri=/help
+2018-08-08_07:39:20.54731 localhost:1180 @ - - [2018/08/08:07:39:20 +0000] "GET /help HTTP/1.1" 502 2916 "" "curl/7.56.1" 0.001
+2018-08-08_07:40:21.17265 localhost:1180 @ - - [2018/08/08:07:40:21 +0000] "GET /help HTTP/1.1" 200 36205 "" "curl/7.56.1" 0.489
+2018-08-08_07:41:21.46516 localhost:1180 @ - - [2018/08/08:07:41:21 +0000] "GET /help HTTP/1.1" 200 36205 "" "curl/7.56.1" 0.222
+2018-08-08_07:42:22.23603 localhost:1180 @ - - [2018/08/08:07:42:22 +0000] "GET /help HTTP/1.1" 200 36205 "" "curl/7.56.1" 0.690
+2018-08-08_07:43:22.50038 localhost:1180 @ - - [2018/08/08:07:43:22 +0000] "GET /help HTTP/1.1" 200 36205 "" "curl/7.56.1" 0.195
+2018-08-08_07:44:22.78344 localhost:1180 @ - - [2018/08/08:07:44:22 +0000] "GET /help HTTP/1.1" 200 36205 "" "curl/7.56.1" 0.216
+2018-08-08_07:45:23.32423 localhost:1180 @ - - [2018/08/08:07:45:23 +0000] "GET /help HTTP/1.1" 200 36205 "" "curl/7.56.1" 0.480
+2018-08-08_07:46:23.59115 localhost:1180 @ - - [2018/08/08:07:46:23 +0000] "GET /help HTTP/1.1" 200 36205 "" "curl/7.56.1" 0.204
+2018-08-08_07:47:23.81188 localhost:1180 @ - - [2018/08/08:07:47:23 +0000] "GET /help HTTP/1.1" 200 36205 "" "curl/7.56.1" 0.148
+2018-08-08_07:48:24.11299 localhost:1180 @ - - [2018/08/08:07:48:24 +0000] "GET /help HTTP/1.1" 200 36205 "" "curl/7.56.1" 0.232
+2018-08-08_07:49:24.35307 localhost:1180 @ - - [2018/08/08:07:49:24 +0000] "GET /help HTTP/1.1" 200 36205 "" "curl/7.56.1" 0.174
